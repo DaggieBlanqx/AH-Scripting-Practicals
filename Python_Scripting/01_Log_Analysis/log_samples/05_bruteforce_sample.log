@@ -1,0 +1,160 @@
+Aug 16 02:40:02 vpn-jump01 sshd[2216]: Failed password for h.mwangi from 91.243.71.27 port 59260 ssh2
+Aug 16 02:40:03 vpn-jump01 sshd[20602]: Failed password for h.mwangi from 185.100.87.44 port 47956 ssh2
+Aug 16 02:40:08 vpn-jump01 sshd[26648]: Failed password for h.mwangi from 91.243.71.19 port 54802 ssh2
+Aug 16 02:40:15 vpn-jump01 sshd[31377]: Failed password for h.mwangi from 91.243.71.12 port 58658 ssh2
+Aug 16 02:40:16 vpn-jump01 sshd[26600]: Failed password for h.mwangi from 91.243.71.19 port 30997 ssh2
+Aug 16 02:40:17 vpn-jump01 sshd[18573]: Failed password for h.mwangi from 91.243.71.12 port 42333 ssh2
+Aug 16 02:40:19 vpn-jump01 sshd[23431]: Failed password for h.mwangi from 185.100.87.44 port 33753 ssh2
+Aug 16 02:40:22 vpn-jump01 sshd[23739]: Failed password for h.mwangi from 91.243.71.12 port 33481 ssh2
+Aug 16 02:40:27 vpn-jump01 sshd[25407]: Failed password for h.mwangi from 91.243.71.12 port 43158 ssh2
+Aug 16 02:40:29 vpn-jump01 sshd[3233]: Failed password for h.mwangi from 91.243.71.27 port 45915 ssh2
+Aug 16 02:40:35 vpn-jump01 sshd[30373]: Failed password for h.mwangi from 91.243.71.27 port 61041 ssh2
+Aug 16 02:40:42 vpn-jump01 sshd[14681]: Failed password for h.mwangi from 185.100.87.44 port 58279 ssh2
+Aug 16 02:40:45 vpn-jump01 sshd[10739]: Connection closed by authenticating user h.mwangi 91.243.71.27 port 58279 [preauth]
+Aug 16 02:40:52 vpn-jump01 sshd[18785]: Failed password for c.cheruiyot from 185.100.87.61 port 57809 ssh2
+Aug 16 02:41:00 vpn-jump01 sshd[17006]: Failed password for c.cheruiyot from 91.243.71.19 port 48030 ssh2
+Aug 16 02:41:05 vpn-jump01 sshd[7812]: Failed password for c.cheruiyot from 91.243.71.19 port 48490 ssh2
+Aug 16 02:41:10 vpn-jump01 sshd[23285]: Failed password for c.cheruiyot from 91.243.71.12 port 56558 ssh2
+Aug 16 02:41:18 vpn-jump01 sshd[31996]: Failed password for c.cheruiyot from 91.243.71.12 port 59362 ssh2
+Aug 16 02:41:25 vpn-jump01 sshd[11596]: Failed password for c.cheruiyot from 91.243.71.12 port 46523 ssh2
+Aug 16 02:41:28 vpn-jump01 sshd[18499]: Failed password for c.cheruiyot from 91.243.71.27 port 54601 ssh2
+Aug 16 02:41:30 vpn-jump01 sshd[8204]: Failed password for c.cheruiyot from 185.100.87.61 port 63649 ssh2
+Aug 16 02:41:33 vpn-jump01 sshd[3266]: Failed password for c.cheruiyot from 185.100.87.44 port 47408 ssh2
+Aug 16 02:41:37 vpn-jump01 sshd[31204]: Failed password for c.cheruiyot from 185.100.87.61 port 63012 ssh2
+Aug 16 02:41:43 vpn-jump01 sshd[14121]: Connection closed by authenticating user c.cheruiyot 91.243.71.19 port 63012 [preauth]
+Aug 16 02:41:51 vpn-jump01 sshd[27596]: Failed password for k.wanjiru from 91.243.71.27 port 58747 ssh2
+Aug 16 02:41:55 vpn-jump01 sshd[6245]: Failed password for k.wanjiru from 91.243.71.19 port 44269 ssh2
+Aug 16 02:41:56 vpn-jump01 sshd[11771]: Failed password for k.wanjiru from 91.243.71.12 port 52063 ssh2
+Aug 16 02:42:04 vpn-jump01 sshd[27534]: Failed password for k.wanjiru from 91.243.71.12 port 45090 ssh2
+Aug 16 02:42:07 vpn-jump01 sshd[27921]: Failed password for k.wanjiru from 91.243.71.19 port 48870 ssh2
+Aug 16 02:42:11 vpn-jump01 sshd[4662]: Accepted publickey for k.wanjiru from 10.30.5.246 port 49429 ssh2
+Aug 16 02:42:15 vpn-jump01 sshd[4085]: Failed password for k.wanjiru from 91.243.71.27 port 46107 ssh2
+Aug 16 02:42:17 vpn-jump01 sshd[6148]: Failed password for k.wanjiru from 91.243.71.19 port 53194 ssh2
+Aug 16 02:42:23 vpn-jump01 sshd[13205]: Failed password for k.wanjiru from 185.100.87.44 port 54930 ssh2
+Aug 16 02:42:29 vpn-jump01 sshd[23115]: Failed password for k.wanjiru from 91.243.71.27 port 47899 ssh2
+Aug 16 02:42:35 vpn-jump01 sshd[1101]: Failed password for a.auma from 91.243.71.27 port 41045 ssh2
+Aug 16 02:42:39 vpn-jump01 sshd[23115]: Failed password for a.auma from 185.100.87.61 port 39452 ssh2
+Aug 16 02:42:45 vpn-jump01 sshd[26129]: Failed password for a.auma from 185.100.87.61 port 45013 ssh2
+Aug 16 02:42:52 vpn-jump01 sshd[19627]: Failed password for a.auma from 185.100.87.61 port 38816 ssh2
+Aug 16 02:42:53 vpn-jump01 sshd[21063]: Failed password for a.auma from 91.243.71.27 port 52139 ssh2
+Aug 16 02:42:55 vpn-jump01 sshd[8278]: Failed password for a.auma from 91.243.71.27 port 43174 ssh2
+Aug 16 02:42:56 vpn-jump01 sshd[26764]: Failed password for a.auma from 185.100.87.61 port 63480 ssh2
+Aug 16 02:42:59 vpn-jump01 sshd[21957]: Failed password for a.auma from 185.100.87.61 port 39183 ssh2
+Aug 16 02:43:04 vpn-jump01 sshd[15259]: Failed password for a.auma from 91.243.71.12 port 36527 ssh2
+Aug 16 02:43:05 vpn-jump01 sshd[2568]: Failed password for a.auma from 91.243.71.12 port 30370 ssh2
+Aug 16 02:43:09 vpn-jump01 sshd[12791]: Failed password for a.auma from 185.100.87.44 port 43461 ssh2
+Aug 16 02:43:14 vpn-jump01 sshd[18736]: Failed password for a.auma from 91.243.71.12 port 37771 ssh2
+Aug 16 02:43:19 vpn-jump01 sshd[12102]: Connection closed by authenticating user a.auma 185.100.87.44 port 37771 [preauth]
+Aug 16 02:43:26 vpn-jump01 sshd[30740]: Failed password for n.maina from 185.100.87.61 port 48825 ssh2
+Aug 16 02:43:30 vpn-jump01 sshd[23799]: Failed password for n.maina from 91.243.71.19 port 42312 ssh2
+Aug 16 02:43:35 vpn-jump01 sshd[16490]: Failed password for n.maina from 185.100.87.44 port 43683 ssh2
+Aug 16 02:43:47 vpn-jump01 sshd[23054]: Failed password for n.maina from 185.100.87.44 port 36283 ssh2
+Aug 16 02:43:49 vpn-jump01 sshd[30294]: Failed password for n.maina from 91.243.71.12 port 45410 ssh2
+Aug 16 02:44:06 vpn-jump01 sshd[10957]: Failed password for n.maina from 185.100.87.44 port 54072 ssh2
+Aug 16 02:44:11 vpn-jump01 sshd[6974]: Failed password for n.maina from 185.100.87.44 port 30896 ssh2
+Aug 16 02:44:19 vpn-jump01 sshd[15269]: Failed password for n.maina from 185.100.87.61 port 37571 ssh2
+Aug 16 02:44:23 vpn-jump01 sshd[20158]: Failed password for n.maina from 91.243.71.27 port 62167 ssh2
+Aug 16 02:44:28 vpn-jump01 sshd[4319]: Failed password for n.maina from 91.243.71.19 port 43899 ssh2
+Aug 16 02:44:43 vpn-jump01 sshd[4379]: Failed password for c.njoroge from 185.100.87.61 port 36600 ssh2
+Aug 16 02:44:47 vpn-jump01 sshd[30160]: Failed password for c.njoroge from 185.100.87.44 port 48081 ssh2
+Aug 16 02:44:52 vpn-jump01 sshd[20629]: Failed password for c.njoroge from 91.243.71.27 port 48935 ssh2
+Aug 16 02:44:57 vpn-jump01 sshd[22140]: Failed password for c.njoroge from 91.243.71.27 port 44330 ssh2
+Aug 16 02:44:58 vpn-jump01 sshd[19537]: Failed password for c.njoroge from 91.243.71.19 port 59820 ssh2
+Aug 16 02:45:02 vpn-jump01 sshd[5216]: Failed password for c.njoroge from 91.243.71.19 port 56587 ssh2
+Aug 16 02:45:09 vpn-jump01 sshd[31351]: Failed password for c.njoroge from 91.243.71.27 port 34539 ssh2
+Aug 16 02:45:12 vpn-jump01 sshd[28473]: Failed password for c.njoroge from 185.100.87.61 port 33602 ssh2
+Aug 16 02:45:13 vpn-jump01 sshd[3102]: Failed password for c.njoroge from 91.243.71.19 port 56914 ssh2
+Aug 16 02:45:20 vpn-jump01 sshd[22521]: Failed password for c.njoroge from 91.243.71.12 port 41209 ssh2
+Aug 16 02:45:27 vpn-jump01 sshd[31830]: Failed password for c.njoroge from 185.100.87.44 port 36695 ssh2
+Aug 16 02:45:28 vpn-jump01 sshd[27006]: Failed password for c.njoroge from 91.243.71.27 port 63296 ssh2
+Aug 16 02:45:33 vpn-jump01 sshd[22694]: Failed password for c.njoroge from 185.100.87.44 port 31123 ssh2
+Aug 16 02:45:36 vpn-jump01 sshd[22504]: Failed password for c.njoroge from 91.243.71.27 port 48962 ssh2
+Aug 16 02:45:42 vpn-jump01 sshd[16421]: Failed password for c.njoroge from 91.243.71.12 port 38464 ssh2
+Aug 16 02:45:45 vpn-jump01 sshd[19096]: Connection closed by authenticating user c.njoroge 91.243.71.12 port 38464 [preauth]
+Aug 16 02:45:50 vpn-jump01 sshd[16526]: Failed password for m.maina from 185.100.87.61 port 36235 ssh2
+Aug 16 02:45:55 vpn-jump01 sshd[10255]: Failed password for m.maina from 185.100.87.44 port 40645 ssh2
+Aug 16 02:45:58 vpn-jump01 sshd[17600]: Failed password for m.maina from 91.243.71.19 port 50992 ssh2
+Aug 16 02:46:10 vpn-jump01 sshd[1707]: pam_unix(sshd:session): session closed for user e.chebet
+Aug 16 02:46:10 vpn-jump01 sshd[8350]: Failed password for m.maina from 91.243.71.12 port 40213 ssh2
+Aug 16 02:46:12 vpn-jump01 sshd[15624]: Failed password for m.maina from 91.243.71.19 port 47922 ssh2
+Aug 16 02:46:16 vpn-jump01 sshd[5844]: pam_unix(sshd:session): session closed for user f.akinyi
+Aug 16 02:46:20 vpn-jump01 sshd[7950]: Failed password for m.maina from 91.243.71.27 port 61809 ssh2
+Aug 16 02:46:26 vpn-jump01 sshd[18096]: Failed password for m.maina from 91.243.71.27 port 52257 ssh2
+Aug 16 02:46:30 vpn-jump01 sshd[22235]: Failed password for m.maina from 91.243.71.19 port 46669 ssh2
+Aug 16 02:46:41 vpn-jump01 sshd[20503]: Connection closed by authenticating user m.maina 185.100.87.61 port 45739 [preauth]
+Aug 16 02:46:46 vpn-jump01 sshd[1595]: Failed password for e.akinyi from 91.243.71.12 port 42386 ssh2
+Aug 16 02:46:48 vpn-jump01 sshd[12392]: Failed password for e.akinyi from 91.243.71.27 port 42408 ssh2
+Aug 16 02:46:52 vpn-jump01 sshd[1421]: Failed password for e.akinyi from 91.243.71.27 port 53862 ssh2
+Aug 16 02:46:57 vpn-jump01 sshd[30499]: Failed password for e.akinyi from 91.243.71.19 port 34140 ssh2
+Aug 16 02:47:03 vpn-jump01 sshd[10590]: Failed password for e.akinyi from 185.100.87.61 port 49478 ssh2
+Aug 16 02:47:11 vpn-jump01 sshd[18084]: Failed password for e.akinyi from 91.243.71.27 port 34581 ssh2
+Aug 16 02:47:14 vpn-jump01 sshd[9031]: Failed password for e.akinyi from 91.243.71.27 port 56426 ssh2
+Aug 16 02:47:20 vpn-jump01 sshd[22903]: Failed password for e.akinyi from 91.243.71.19 port 42753 ssh2
+Aug 16 02:47:27 vpn-jump01 sshd[13016]: Failed password for e.akinyi from 91.243.71.27 port 46107 ssh2
+Aug 16 02:47:32 vpn-jump01 sshd[6049]: Failed password for e.akinyi from 91.243.71.19 port 37742 ssh2
+Aug 16 02:47:39 vpn-jump01 sshd[22834]: Failed password for e.akinyi from 91.243.71.12 port 30121 ssh2
+Aug 16 02:47:54 vpn-jump01 sshd[23863]: Failed password for e.akinyi from 91.243.71.12 port 59235 ssh2
+Aug 16 02:48:00 vpn-jump01 sshd[23273]: Failed password for e.akinyi from 185.100.87.61 port 38282 ssh2
+Aug 16 02:48:05 vpn-jump01 sshd[24785]: Failed password for e.akinyi from 91.243.71.19 port 38715 ssh2
+Aug 16 02:48:11 vpn-jump01 sshd[10968]: Connection closed by authenticating user e.akinyi 185.100.87.61 port 38715 [preauth]
+Aug 16 02:48:16 vpn-jump01 sshd[28388]: Failed password for p.rotich from 185.100.87.44 port 56115 ssh2
+Aug 16 02:48:22 vpn-jump01 sshd[16684]: Failed password for p.rotich from 91.243.71.19 port 53730 ssh2
+Aug 16 02:48:30 vpn-jump01 sshd[27133]: Failed password for p.rotich from 91.243.71.19 port 38256 ssh2
+Aug 16 02:48:37 vpn-jump01 sshd[18866]: Failed password for p.rotich from 91.243.71.27 port 63196 ssh2
+Aug 16 02:48:39 vpn-jump01 sshd[28047]: Failed password for p.rotich from 185.100.87.44 port 34742 ssh2
+Aug 16 02:48:47 vpn-jump01 sshd[8071]: Failed password for p.rotich from 185.100.87.61 port 60047 ssh2
+Aug 16 02:48:53 vpn-jump01 sshd[29677]: Failed password for p.rotich from 91.243.71.12 port 33317 ssh2
+Aug 16 02:49:00 vpn-jump01 sshd[11199]: Failed password for p.rotich from 91.243.71.12 port 40019 ssh2
+Aug 16 02:49:01 vpn-jump01 sshd[9526]: Failed password for p.rotich from 185.100.87.44 port 62114 ssh2
+Aug 16 02:49:06 vpn-jump01 sshd[8857]: Failed password for p.rotich from 91.243.71.27 port 45419 ssh2
+Aug 16 02:49:14 vpn-jump01 sshd[11253]: Failed password for p.rotich from 91.243.71.27 port 51347 ssh2
+Aug 16 02:49:20 vpn-jump01 sshd[5023]: Failed password for p.rotich from 185.100.87.44 port 37666 ssh2
+Aug 16 02:49:28 vpn-jump01 sshd[24992]: Failed password for p.rotich from 91.243.71.19 port 53861 ssh2
+Aug 16 02:49:32 vpn-jump01 sshd[28128]: Failed password for p.rotich from 91.243.71.19 port 50836 ssh2
+Aug 16 02:49:34 vpn-jump01 sshd[5841]: Failed password for p.rotich from 185.100.87.44 port 54518 ssh2
+Aug 16 02:49:39 vpn-jump01 sshd[27369]: Connection closed by authenticating user p.rotich 91.243.71.19 port 54518 [preauth]
+Aug 16 02:49:40 vpn-jump01 sshd[15110]: Failed password for e.omondi from 185.100.87.61 port 49084 ssh2
+Aug 16 02:49:44 vpn-jump01 sshd[30470]: Failed password for e.omondi from 91.243.71.27 port 44813 ssh2
+Aug 16 02:49:48 vpn-jump01 sshd[1415]: Failed password for e.omondi from 185.100.87.61 port 55114 ssh2
+Aug 16 02:49:51 vpn-jump01 sshd[17959]: Failed password for e.omondi from 91.243.71.12 port 51744 ssh2
+Aug 16 02:49:56 vpn-jump01 sshd[29991]: Failed password for e.omondi from 91.243.71.12 port 49006 ssh2
+Aug 16 02:49:58 vpn-jump01 sshd[17020]: Failed password for e.omondi from 91.243.71.27 port 64335 ssh2
+Aug 16 02:50:02 vpn-jump01 sshd[5102]: Failed password for e.omondi from 91.243.71.12 port 56851 ssh2
+Aug 16 02:50:07 vpn-jump01 sshd[27109]: Failed password for e.omondi from 185.100.87.44 port 64926 ssh2
+Aug 16 02:50:08 vpn-jump01 sshd[28483]: Failed password for e.omondi from 185.100.87.44 port 54451 ssh2
+Aug 16 02:50:10 vpn-jump01 sshd[8256]: Failed password for e.omondi from 91.243.71.12 port 54717 ssh2
+Aug 16 02:50:13 vpn-jump01 sshd[10244]: Failed password for e.omondi from 91.243.71.12 port 38081 ssh2
+Aug 16 02:50:24 vpn-jump01 sshd[30944]: Failed password for e.omondi from 185.100.87.61 port 30031 ssh2
+Aug 16 02:50:32 vpn-jump01 sshd[24509]: Failed password for e.omondi from 185.100.87.44 port 35863 ssh2
+Aug 16 02:50:36 vpn-jump01 sshd[4182]: Failed password for e.omondi from 91.243.71.12 port 42785 ssh2
+Aug 16 02:50:48 vpn-jump01 sshd[27815]: Accepted password for svc_backup from 91.243.71.27 port 51422 ssh2
+Aug 16 02:50:49 vpn-jump01 sshd[27815]: pam_unix(sshd:session): session opened for user svc_backup(uid=1104) by (uid=0)
+Aug 16 02:50:57 vpn-jump01 sshd[20905]: pam_unix(sshd:session): session closed for user a.mutua
+Aug 16 02:52:18 vpn-jump01 sudo: svc_backup : TTY=pts/2 ; PWD=/home/svc_backup ; USER=root ; COMMAND=/bin/cat /etc/shadow
+Aug 16 02:52:27 vpn-jump01 CRON[14765]: (root) CMD (/usr/local/bin/backup-rotate.sh)
+Aug 16 02:52:49 vpn-jump01 sshd[28321]: pam_unix(sshd:session): session opened for user f.chebet(uid=1114) by (uid=0)
+Aug 16 02:53:36 vpn-jump01 sudo: svc_backup : TTY=pts/2 ; PWD=/home/svc_backup ; USER=root ; COMMAND=/usr/bin/find / -name id_rsa
+Aug 16 02:54:45 vpn-jump01 sudo: svc_backup : TTY=pts/2 ; PWD=/home/svc_backup ; USER=root ; COMMAND=/bin/cat /etc/hosts
+Aug 16 02:56:04 vpn-jump01 sudo: svc_backup : TTY=pts/2 ; PWD=/home/svc_backup ; USER=root ; COMMAND=/usr/sbin/iptables -F
+Aug 16 02:56:58 vpn-jump01 sudo: svc_backup : TTY=pts/2 ; PWD=/home/svc_backup ; USER=root ; COMMAND=/bin/echo ssh-rsa AAAAB3Nza... >> /root/.ssh/authorized_keys
+Aug 16 02:57:36 vpn-jump01 sshd[1790]: pam_unix(sshd:session): session closed for user y.waweru
+Aug 16 02:57:43 vpn-jump01 sshd[9006]: Connection from vpn-jump01 to 10.30.2.11 port 22 initiated by svc_backup (lateral movement, target: db-primary)
+Aug 16 02:58:43 vpn-jump01 sshd[4157]: Connection from vpn-jump01 to 10.30.2.14 port 22 initiated by svc_backup (lateral movement, target: db-replica)
+Aug 16 02:59:37 vpn-jump01 sshd[3636]: Connection from vpn-jump01 to 10.30.5.20 port 22 initiated by svc_backup (lateral movement, target: fileserver-01)
+Aug 16 03:00:13 vpn-jump01 sshd[27431]: pam_unix(sshd:session): session opened for user k.wanjiru(uid=1102) by (uid=0)
+Aug 16 03:00:17 vpn-jump01 sshd[13180]: Connection from vpn-jump01 to 10.30.5.22 port 22 initiated by svc_backup (lateral movement, target: backup-nas)
+Aug 16 03:00:50 vpn-jump01 scp[22955]: svc_backup copied /mnt/backup-nas/patient_records_full_2026.sql.gz (4.8G) from backup-nas to vpn-jump01
+Aug 16 03:03:15 vpn-jump01 CMD (p.cheruiyot): ps aux | grep java
+Aug 16 03:04:23 vpn-jump01 outbound-fw: ALLOW proto=TCP src=vpn-jump01 dst=91.243.71.27 dport=443 bytes_out=4934213120 msg="large outbound transfer, patient_records_full_2026.sql.gz"
+Aug 16 03:04:57 vpn-jump01 sshd[31516]: Accepted publickey for k.auma from 10.30.9.153 port 41283 ssh2
+Aug 16 03:05:09 vpn-jump01 sshd[18959]: Accepted publickey for c.cheruiyot from 10.30.3.122 port 37933 ssh2
+Aug 16 03:07:08 vpn-jump01 sshd[21963]: Accepted publickey for f.chebet from 10.30.8.247 port 38574 ssh2
+Aug 16 03:08:09 vpn-jump01 fail2ban.actions: NOTICE [sshd] Ban 91.243.71.27
+Aug 16 03:08:14 vpn-jump01 CMD (e.gitau): who
+Aug 16 03:08:18 vpn-jump01 fail2ban.actions: NOTICE [sshd] Ban 91.243.71.12
+Aug 16 03:08:26 vpn-jump01 fail2ban.actions: NOTICE [sshd] Ban 91.243.71.19
+Aug 16 03:08:36 vpn-jump01 fail2ban.actions: NOTICE [sshd] Ban 185.100.87.44
+Aug 16 03:08:44 vpn-jump01 fail2ban.actions: NOTICE [sshd] Ban 103.66.77.14
+Aug 16 03:08:48 vpn-jump01 fail2ban.actions: NOTICE [sshd] Ban 103.66.77.29
+Aug 16 03:09:42 vpn-jump01 CMD (k.auma): free -m
+Aug 16 03:10:35 vpn-jump01 SECURITY_ALERT: soc-siem severity=critical msg="Credential stuffing success on svc_backup led to lateral movement and 4.8GB exfil of patient_records_full_2026.sql.gz, account disabled, incident IR-2026-0816 opened"

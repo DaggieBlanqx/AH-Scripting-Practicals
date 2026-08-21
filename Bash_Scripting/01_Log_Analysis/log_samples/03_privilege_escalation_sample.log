@@ -1,0 +1,140 @@
+2026-08-03 00:56:20 | user=h.chepkoech | dept=Logistics | role=STANDARD | action=CREATE_PURCHASE_ORDER | src_ip=10.20.9.52 | result=SUCCESS
+2026-08-03 00:57:54 | user=w.akinyi | role=admin | action=CREATE_USER | new_user=svc_w.akinyi_bak | new_role=admin | src_ip=10.20.99.201 | result=SUCCESS_200
+2026-08-03 00:58:16 | user=y.wanjiru2 | role=admin | action=CREATE_USER | new_user=svc_y.wanjiru2_bak | new_role=admin | src_ip=10.20.99.201 | result=SUCCESS_200
+2026-08-03 00:58:33 | user=w.akinyi | role=admin | action=ACCESS_GRANTED | target=/finance/payroll | src_ip=10.20.99.201 | result=SUCCESS_200
+2026-08-03 00:58:35 | user=y.wanjiru2 | role=admin | action=ACCESS_GRANTED | target=/finance/payroll | src_ip=10.20.99.201 | result=SUCCESS_200
+2026-08-03 00:58:45 | user=w.akinyi | role=admin | action=UPDATE_PAYROLL_RECORD | employee_id=EMP-5679 | field=salary | old_value=41980 | new_value_delta=+88441 | src_ip=10.20.99.201 | result=SUCCESS_200 | ANOMALY_SELF_MODIFY
+2026-08-03 00:59:00 | user=y.wanjiru2 | role=admin | action=UPDATE_PAYROLL_RECORD | employee_id=EMP-3537 | field=salary | old_value=54269 | new_value_delta=+70206 | src_ip=10.20.99.201 | result=SUCCESS_200 | ANOMALY_SELF_MODIFY
+2026-08-03 01:00:19 | user=j.mwangi2 | role=admin | action=CREATE_USER | new_user=svc_j.mwangi2_bak | new_role=admin | src_ip=10.20.99.201 | result=SUCCESS_200
+2026-08-03 01:00:35 | user=p.kariuki | dept=Quality Assurance | role=STANDARD | action=VIEW_INVENTORY | src_ip=10.20.21.151 | result=SUCCESS
+2026-08-03 01:00:44 | user=j.mwangi2 | role=admin | action=ACCESS_GRANTED | target=/finance/payroll | src_ip=10.20.99.201 | result=SUCCESS_200
+2026-08-03 01:01:06 | user=j.mwangi2 | role=admin | action=UPDATE_PAYROLL_RECORD | employee_id=EMP-6159 | field=salary | old_value=52166 | new_value_delta=+34136 | src_ip=10.20.99.201 | result=SUCCESS_200 | ANOMALY_SELF_MODIFY
+2026-08-03 01:02:01 | user=m.barasa3 | dept=Logistics | role=STANDARD | action=LOGIN_SUCCESS | src_ip=10.20.9.204 | result=SUCCESS
+2026-08-03 01:02:13 | user=d.kimani3 | role=admin | action=CREATE_USER | new_user=svc_d.kimani3_bak | new_role=admin | src_ip=10.20.99.201 | result=SUCCESS_200
+2026-08-03 01:02:24 | user=c.cheruiyot | dept=HR | role=STANDARD | action=APPROVE_LEAVE_REQUEST | src_ip=10.20.23.33 | result=SUCCESS
+2026-08-03 01:02:43 | user=d.kimani3 | role=admin | action=ACCESS_GRANTED | target=/finance/payroll | src_ip=10.20.99.201 | result=SUCCESS_200
+2026-08-03 01:03:17 | user=d.kimani3 | role=admin | action=UPDATE_PAYROLL_RECORD | employee_id=EMP-7308 | field=salary | old_value=41168 | new_value_delta=+23737 | src_ip=10.20.99.201 | result=SUCCESS_200 | ANOMALY_SELF_MODIFY
+2026-08-03 01:04:13 | user=a.mohamed | role=admin | action=CREATE_USER | new_user=svc_a.mohamed_bak | new_role=admin | src_ip=10.20.99.201 | result=SUCCESS_200
+2026-08-03 01:04:39 | user=s.mwangi3 | role=admin | action=CREATE_USER | new_user=svc_s.mwangi3_bak | new_role=admin | src_ip=10.20.99.201 | result=SUCCESS_200
+2026-08-03 01:04:42 | user=s.wanjiru | role=admin | action=CREATE_USER | new_user=svc_s.wanjiru_bak | new_role=admin | src_ip=10.20.99.201 | result=SUCCESS_200
+2026-08-03 01:04:50 | user=a.mohamed | role=admin | action=ACCESS_GRANTED | target=/finance/payroll | src_ip=10.20.99.201 | result=SUCCESS_200
+2026-08-03 01:05:04 | user=a.mohamed | role=admin | action=UPDATE_PAYROLL_RECORD | employee_id=EMP-7513 | field=salary | old_value=39436 | new_value_delta=+72509 | src_ip=10.20.99.201 | result=SUCCESS_200 | ANOMALY_SELF_MODIFY
+2026-08-03 01:05:05 | user=s.mwangi3 | role=admin | action=ACCESS_GRANTED | target=/finance/payroll | src_ip=10.20.99.201 | result=SUCCESS_200
+2026-08-03 01:05:13 | user=s.wanjiru | role=admin | action=ACCESS_GRANTED | target=/finance/payroll | src_ip=10.20.99.201 | result=SUCCESS_200
+2026-08-03 01:05:20 | user=s.mwangi3 | role=admin | action=UPDATE_PAYROLL_RECORD | employee_id=EMP-1509 | field=salary | old_value=47349 | new_value_delta=+84541 | src_ip=10.20.99.201 | result=SUCCESS_200 | ANOMALY_SELF_MODIFY
+2026-08-03 01:05:38 | user=s.wanjiru | role=admin | action=UPDATE_PAYROLL_RECORD | employee_id=EMP-8204 | field=salary | old_value=49443 | new_value_delta=+83042 | src_ip=10.20.99.201 | result=SUCCESS_200 | ANOMALY_SELF_MODIFY
+2026-08-03 01:06:04 | user=a.wekesa2 | dept=Finance | role=STANDARD | action=VIEW_TIMESHEET | src_ip=10.20.11.248 | result=SUCCESS
+2026-08-03 01:07:05 | user=s.mohamed | dept=HR | role=STANDARD | action=VIEW_PAYSLIP | src_ip=10.20.18.69 | result=SUCCESS
+2026-08-03 01:08:05 | user=g.mutua2 | dept=Finance | role=STANDARD | action=VIEW_PURCHASE_ORDER | src_ip=10.20.21.114 | result=SUCCESS
+2026-08-03 01:09:14 | user=f.wafula2 | role=admin | action=CREATE_USER | new_user=svc_f.wafula2_bak | new_role=admin | src_ip=10.20.99.201 | result=SUCCESS_200
+2026-08-03 01:09:32 | user=e.auma | dept=Finance | role=STANDARD | action=LOGIN_SUCCESS | src_ip=10.20.13.224 | result=SUCCESS
+2026-08-03 01:09:32 | user=f.wafula2 | role=admin | action=ACCESS_GRANTED | target=/finance/payroll | src_ip=10.20.99.201 | result=SUCCESS_200
+2026-08-03 01:10:05 | user=f.wafula2 | role=admin | action=UPDATE_PAYROLL_RECORD | employee_id=EMP-9415 | field=salary | old_value=57287 | new_value_delta=+84988 | src_ip=10.20.99.201 | result=SUCCESS_200 | ANOMALY_SELF_MODIFY
+2026-08-03 01:10:40 | user=o.gitau2 | role=admin | action=CREATE_USER | new_user=svc_o.gitau2_bak | new_role=admin | src_ip=10.20.99.201 | result=SUCCESS_200
+2026-08-03 01:10:56 | user=o.gitau2 | role=admin | action=ACCESS_GRANTED | target=/finance/payroll | src_ip=10.20.99.201 | result=SUCCESS_200
+2026-08-03 01:11:29 | user=o.gitau2 | role=admin | action=UPDATE_PAYROLL_RECORD | employee_id=EMP-2460 | field=salary | old_value=45764 | new_value_delta=+81657 | src_ip=10.20.99.201 | result=SUCCESS_200 | ANOMALY_SELF_MODIFY
+2026-08-03 01:12:13 | user=s.mutua | dept=Sales | role=STANDARD | action=CREATE_PURCHASE_ORDER | src_ip=10.20.17.141 | result=SUCCESS
+2026-08-03 01:13:07 | user=a.ochieng | dept=Sales | role=STANDARD | action=VIEW_PAYSLIP | src_ip=10.20.6.164 | result=SUCCESS
+2026-08-03 01:16:04 | user=e.maina | dept=Logistics | role=STANDARD | action=VIEW_INVENTORY | src_ip=10.20.24.222 | result=SUCCESS
+2026-08-03 01:21:13 | user=r.maina4 | dept=Warehouse | role=STANDARD | action=VIEW_PAYSLIP | src_ip=10.20.9.29 | result=SUCCESS
+2026-08-03 01:22:22 | user=i.chepkoech | role=admin | action=CREATE_USER | new_user=svc_i.chepkoech_bak | new_role=admin | src_ip=10.20.99.201 | result=SUCCESS_200
+2026-08-03 01:22:46 | user=g.wanjiru | role=admin | action=CREATE_USER | new_user=svc_g.wanjiru_bak | new_role=admin | src_ip=10.20.99.201 | result=SUCCESS_200
+2026-08-03 01:22:49 | user=i.chepkoech | role=admin | action=ACCESS_GRANTED | target=/finance/payroll | src_ip=10.20.99.201 | result=SUCCESS_200
+2026-08-03 01:23:06 | user=m.odhiambo2 | role=admin | action=CREATE_USER | new_user=svc_m.odhiambo2_bak | new_role=admin | src_ip=10.20.99.201 | result=SUCCESS_200
+2026-08-03 01:23:10 | user=g.wanjiru | role=admin | action=ACCESS_GRANTED | target=/finance/payroll | src_ip=10.20.99.201 | result=SUCCESS_200
+2026-08-03 01:23:25 | user=i.chepkoech | role=admin | action=UPDATE_PAYROLL_RECORD | employee_id=EMP-6466 | field=salary | old_value=35747 | new_value_delta=+19570 | src_ip=10.20.99.201 | result=SUCCESS_200 | ANOMALY_SELF_MODIFY
+2026-08-03 01:23:27 | user=m.odhiambo2 | role=admin | action=ACCESS_GRANTED | target=/finance/payroll | src_ip=10.20.99.201 | result=SUCCESS_200
+2026-08-03 01:23:40 | user=g.wanjiru | role=admin | action=UPDATE_PAYROLL_RECORD | employee_id=EMP-9934 | field=salary | old_value=45505 | new_value_delta=+79000 | src_ip=10.20.99.201 | result=SUCCESS_200 | ANOMALY_SELF_MODIFY
+2026-08-03 01:23:52 | user=m.odhiambo2 | role=admin | action=UPDATE_PAYROLL_RECORD | employee_id=EMP-9137 | field=salary | old_value=44801 | new_value_delta=+32469 | src_ip=10.20.99.201 | result=SUCCESS_200 | ANOMALY_SELF_MODIFY
+2026-08-03 01:26:03 | user=r.njeri3 | role=admin | action=CREATE_USER | new_user=svc_r.njeri3_bak | new_role=admin | src_ip=10.20.99.201 | result=SUCCESS_200
+2026-08-03 01:26:13 | user=r.mutua | dept=Finance | role=STANDARD | action=VIEW_PAYSLIP | src_ip=10.20.21.27 | result=SUCCESS
+2026-08-03 01:26:22 | user=r.njeri3 | role=admin | action=ACCESS_GRANTED | target=/finance/payroll | src_ip=10.20.99.201 | result=SUCCESS_200
+2026-08-03 01:26:53 | user=r.njeri3 | role=admin | action=UPDATE_PAYROLL_RECORD | employee_id=EMP-1268 | field=salary | old_value=54893 | new_value_delta=+19043 | src_ip=10.20.99.201 | result=SUCCESS_200 | ANOMALY_SELF_MODIFY
+2026-08-03 01:28:24 | user=m.rotich | role=admin | action=CREATE_USER | new_user=svc_m.rotich_bak | new_role=admin | src_ip=10.20.99.201 | result=SUCCESS_200
+2026-08-03 01:29:01 | user=m.rotich | role=admin | action=ACCESS_GRANTED | target=/finance/payroll | src_ip=10.20.99.201 | result=SUCCESS_200
+2026-08-03 01:29:36 | user=m.rotich | role=admin | action=UPDATE_PAYROLL_RECORD | employee_id=EMP-1499 | field=salary | old_value=35770 | new_value_delta=+26058 | src_ip=10.20.99.201 | result=SUCCESS_200 | ANOMALY_SELF_MODIFY
+2026-08-03 01:30:12 | user=d.njoroge2 | dept=IT Support | role=STANDARD | action=APPROVE_LEAVE_REQUEST | src_ip=10.20.1.114 | result=SUCCESS
+2026-08-03 01:30:42 | user=h.chepkoech | role=admin | action=CREATE_USER | new_user=svc_h.chepkoech_bak | new_role=admin | src_ip=10.20.99.201 | result=SUCCESS_200
+2026-08-03 01:30:55 | user=h.chepkoech | role=admin | action=ACCESS_GRANTED | target=/finance/payroll | src_ip=10.20.99.201 | result=SUCCESS_200
+2026-08-03 01:30:57 | user=j.mwangi77 | dept=Warehouse | role=STANDARD | action=LOGIN_SUCCESS | src_ip=10.20.4.118 | result=SUCCESS
+2026-08-03 01:31:16 | user=j.mwangi77 | action=ACCESS_ATTEMPT | target=/admin/users | src_ip=10.20.4.118 | result=DENIED_403
+2026-08-03 01:31:28 | user=j.mwangi77 | action=ACCESS_ATTEMPT | target=/admin/roles | src_ip=10.20.4.118 | result=DENIED_403
+2026-08-03 01:31:32 | user=h.chepkoech | role=admin | action=UPDATE_PAYROLL_RECORD | employee_id=EMP-1670 | field=salary | old_value=40925 | new_value_delta=+42385 | src_ip=10.20.99.201 | result=SUCCESS_200 | ANOMALY_SELF_MODIFY
+2026-08-03 01:31:42 | user=j.mwangi77 | action=ACCESS_ATTEMPT | target=/admin/audit-log | src_ip=10.20.4.118 | result=DENIED_403
+2026-08-03 01:32:22 | user=s.gitau2 | dept=Procurement | role=STANDARD | action=LOGIN_SUCCESS | src_ip=10.20.13.165 | result=SUCCESS
+2026-08-03 01:32:25 | user=j.mwangi77 | action=API_CALL | method=PATCH | target=/api/users/self/role | payload={"role":"admin"} | src_ip=10.20.4.118 | result=SUCCESS_200
+2026-08-03 01:32:40 | user=j.mwangi77 | dept=Warehouse | role=admin | action=ROLE_CHANGED | old_role=STANDARD | new_role=admin | changed_by=SELF | src_ip=10.20.4.118 | result=ANOMALY
+2026-08-03 01:33:04 | user=s.muthoni3 | dept=Procurement | role=STANDARD | action=VIEW_PAYSLIP | src_ip=10.20.5.102 | result=SUCCESS
+2026-08-03 01:33:38 | user=j.mwangi77 | role=admin | action=CREATE_USER | new_user=svc_backup_admin28 | new_role=admin | src_ip=10.20.4.118 | result=SUCCESS_200
+2026-08-03 01:34:23 | user=j.mwangi77 | role=admin | action=CREATE_USER | new_user=helpdesk_temp65 | new_role=admin | src_ip=10.20.4.118 | result=SUCCESS_200
+2026-08-03 01:34:50 | user=j.mwangi77 | role=admin | action=CREATE_USER | new_user=n.chebet29 | new_role=admin | src_ip=10.20.4.118 | result=SUCCESS_200
+2026-08-03 01:35:16 | user=s.wanjiru | dept=Logistics | role=STANDARD | action=SUBMIT_LEAVE_REQUEST | src_ip=10.20.14.170 | result=SUCCESS
+2026-08-03 01:35:31 | user=b.akinyi2 | dept=Procurement | role=STANDARD | action=LOGOUT | src_ip=10.20.11.198 | result=SUCCESS
+2026-08-03 01:36:01 | user=j.mwangi77 | role=admin | action=ACCESS_GRANTED | target=/finance/payroll | src_ip=10.20.4.118 | result=SUCCESS_200
+2026-08-03 01:36:12 | user=j.mwangi77 | role=admin | action=VIEW | target=/finance/bank_accounts | src_ip=10.20.4.118 | result=SUCCESS_200
+2026-08-03 01:36:27 | user=a.waweru | dept=HR | role=STANDARD | action=VIEW_INVENTORY | src_ip=10.20.1.33 | result=SUCCESS
+2026-08-03 01:36:34 | user=j.mwangi77 | role=admin | action=VIEW | target=/finance/payroll/employees | src_ip=10.20.4.118 | result=SUCCESS_200
+2026-08-03 01:37:46 | user=p.wekesa | dept=Quality Assurance | role=STANDARD | action=LOGOUT | src_ip=10.20.25.161 | result=SUCCESS
+2026-08-03 01:37:48 | user=j.mwangi77 | role=admin | action=CREATE_PAYROLL_RECORD | employee_id=NEW-4471 | name="James Mwangi" | email=james.mwangi59@gmail.com | phone=+254-712-334-981 | department=Executive | salary=185000 | src_ip=10.20.4.118 | result=SUCCESS_200 | ANOMALY_DUPLICATE_IDENTITY
+2026-08-03 01:38:16 | user=j.mwangi77 | role=admin | action=UPDATE_PAYROLL_RECORD | employee_id=EMP-2291 | field=salary | old_value=45000 | new_value=98000 | src_ip=10.20.4.118 | result=SUCCESS_200 | ANOMALY_SELF_MODIFY
+2026-08-03 01:38:47 | user=j.mwangi77 | role=admin | action=DELETE_AUDIT_LOG | range=last_2_hours | src_ip=10.20.4.118 | result=DENIED_403_IMMUTABLE_LOG
+2026-08-03 01:40:35 | user=r.mutua | dept=Finance | role=STANDARD | action=VIEW_PURCHASE_ORDER | src_ip=10.20.9.165 | result=SUCCESS
+2026-08-03 01:41:48 | user=SYSTEM | action=SECURITY_ALERT | severity=critical | msg="Bulk privilege escalation detected via /api/users/self/role: 106 accounts self-elevated to admin, 20 used for payroll fraud, actor j.mwangi77 created rogue admin accounts and a duplicate payroll identity" | result=ACCOUNT_DISABLED
+2026-08-03 01:41:56 | user=SYSTEM | action=DISABLE_USER | target=j.mwangi77 | reason=INCIDENT_RESPONSE | result=SUCCESS_200
+2026-08-03 01:41:58 | user=SYSTEM | action=DISABLE_USER | target=svc_backup_admin28 | reason=INCIDENT_RESPONSE | result=SUCCESS_200
+2026-08-03 01:42:04 | user=SYSTEM | action=DISABLE_USER | target=helpdesk_temp65 | reason=INCIDENT_RESPONSE | result=SUCCESS_200
+2026-08-03 01:42:10 | user=SYSTEM | action=DISABLE_USER | target=n.chebet29 | reason=INCIDENT_RESPONSE | result=SUCCESS_200
+2026-08-03 01:42:16 | user=SYSTEM | action=DISABLE_USER | target=a.mohamed | reason=INCIDENT_RESPONSE | result=SUCCESS_200
+2026-08-03 01:42:19 | user=SYSTEM | action=DISABLE_USER | target=t.kiprotich | reason=INCIDENT_RESPONSE | result=SUCCESS_200
+2026-08-03 01:42:23 | user=SYSTEM | action=DISABLE_USER | target=o.gitau2 | reason=INCIDENT_RESPONSE | result=SUCCESS_200
+2026-08-03 01:42:27 | user=a.gitau | dept=Finance | role=STANDARD | action=VIEW_PAYSLIP | src_ip=10.20.11.26 | result=SUCCESS
+2026-08-03 01:42:31 | user=SYSTEM | action=DISABLE_USER | target=f.wafula2 | reason=INCIDENT_RESPONSE | result=SUCCESS_200
+2026-08-03 01:42:37 | user=SYSTEM | action=DISABLE_USER | target=i.chepkoech | reason=INCIDENT_RESPONSE | result=SUCCESS_200
+2026-08-03 01:42:42 | user=SYSTEM | action=DISABLE_USER | target=d.kimani3 | reason=INCIDENT_RESPONSE | result=SUCCESS_200
+2026-08-03 01:42:49 | user=SYSTEM | action=DISABLE_USER | target=d.otieno2 | reason=INCIDENT_RESPONSE | result=SUCCESS_200
+2026-08-03 01:42:56 | user=SYSTEM | action=DISABLE_USER | target=m.rotich | reason=INCIDENT_RESPONSE | result=SUCCESS_200
+2026-08-03 01:42:59 | user=SYSTEM | action=DISABLE_USER | target=w.akinyi | reason=INCIDENT_RESPONSE | result=SUCCESS_200
+2026-08-03 01:43:02 | user=SYSTEM | action=DISABLE_USER | target=y.wanjiru2 | reason=INCIDENT_RESPONSE | result=SUCCESS_200
+2026-08-03 01:43:06 | user=SYSTEM | action=DISABLE_USER | target=j.mwangi2 | reason=INCIDENT_RESPONSE | result=SUCCESS_200
+2026-08-03 01:43:12 | user=SYSTEM | action=DISABLE_USER | target=s.wanjiru | reason=INCIDENT_RESPONSE | result=SUCCESS_200
+2026-08-03 01:43:16 | user=SYSTEM | action=DISABLE_USER | target=a.waweru | reason=INCIDENT_RESPONSE | result=SUCCESS_200
+2026-08-03 01:43:19 | user=SYSTEM | action=DISABLE_USER | target=h.chepkoech | reason=INCIDENT_RESPONSE | result=SUCCESS_200
+2026-08-03 01:43:25 | user=SYSTEM | action=DISABLE_USER | target=a.onyango | reason=INCIDENT_RESPONSE | result=SUCCESS_200
+2026-08-03 01:49:34 | user=s.nyambura2 | dept=IT Support | role=STANDARD | action=VIEW_PURCHASE_ORDER | src_ip=10.20.22.98 | result=SUCCESS
+2026-08-03 01:50:57 | user=r.wanjiru2 | dept=Finance | role=STANDARD | action=VIEW_INVENTORY | src_ip=10.20.1.114 | result=SUCCESS
+2026-08-03 01:52:34 | user=b.waweru | dept=IT Support | role=STANDARD | action=VIEW_PAYSLIP | src_ip=10.20.3.193 | result=SUCCESS
+2026-08-03 01:56:06 | user=b.muthoni | dept=Procurement | role=STANDARD | action=LOGOUT | src_ip=10.20.9.52 | result=SUCCESS
+2026-08-03 02:00:50 | user=a.omondi | dept=Warehouse | role=STANDARD | action=SUBMIT_LEAVE_REQUEST | src_ip=10.20.13.224 | result=SUCCESS
+2026-08-03 02:02:32 | user=b.kiprotich | dept=Finance | role=STANDARD | action=VIEW_PAYSLIP | src_ip=10.20.17.141 | result=SUCCESS
+2026-08-03 02:04:43 | user=a.karanja2 | dept=Logistics | role=STANDARD | action=LOGIN_SUCCESS | src_ip=10.20.16.210 | result=SUCCESS
+2026-08-03 02:05:00 | user=d.karanja | dept=Quality Assurance | role=STANDARD | action=LOGOUT | src_ip=10.20.22.98 | result=SUCCESS
+2026-08-03 02:06:49 | user=y.gitau | dept=Sales | role=STANDARD | action=VIEW_PAYSLIP | src_ip=10.20.1.65 | result=SUCCESS
+2026-08-03 02:15:12 | user=s.njeri4 | dept=Sales | role=STANDARD | action=VIEW_INVENTORY | src_ip=10.20.15.113 | result=SUCCESS
+2026-08-03 02:18:30 | user=i.cheruiyot5 | dept=Finance | role=STANDARD | action=UPDATE_PROFILE | src_ip=10.20.5.164 | result=SUCCESS
+2026-08-03 02:19:32 | user=o.hassan | dept=Finance | role=STANDARD | action=APPROVE_LEAVE_REQUEST | src_ip=10.20.3.40 | result=SUCCESS
+2026-08-03 02:22:37 | user=a.karanja2 | dept=Logistics | role=STANDARD | action=VIEW_INVENTORY | src_ip=10.20.11.198 | result=SUCCESS
+2026-08-03 02:25:31 | user=a.kiptoo | dept=HR | role=STANDARD | action=VIEW_INVENTORY | src_ip=10.20.4.232 | result=SUCCESS
+2026-08-03 02:25:51 | user=g.wambui | dept=Quality Assurance | role=STANDARD | action=APPROVE_LEAVE_REQUEST | src_ip=10.20.14.109 | result=SUCCESS
+2026-08-03 02:30:15 | user=k.kemboi | dept=Warehouse | role=STANDARD | action=UPDATE_PROFILE | src_ip=10.20.5.164 | result=SUCCESS
+2026-08-03 02:30:35 | user=j.kariuki2 | dept=Logistics | role=STANDARD | action=APPROVE_LEAVE_REQUEST | src_ip=10.20.19.243 | result=SUCCESS
+2026-08-03 02:32:30 | user=p.mwangi2 | dept=Procurement | role=STANDARD | action=SUBMIT_LEAVE_REQUEST | src_ip=10.20.24.85 | result=SUCCESS
+2026-08-03 02:43:51 | user=p.kimani | dept=IT Support | role=STANDARD | action=CREATE_PURCHASE_ORDER | src_ip=10.20.14.159 | result=SUCCESS
+2026-08-03 02:44:23 | user=v.odhiambo | dept=Warehouse | role=STANDARD | action=UPDATE_PROFILE | src_ip=10.20.23.33 | result=SUCCESS
+2026-08-03 02:45:45 | user=r.cheruiyot | dept=Warehouse | role=STANDARD | action=UPDATE_PROFILE | src_ip=10.20.21.151 | result=SUCCESS
+2026-08-03 02:46:06 | user=b.chepkoech2 | dept=Sales | role=STANDARD | action=APPROVE_LEAVE_REQUEST | src_ip=10.20.14.149 | result=SUCCESS
+2026-08-03 02:46:19 | user=h.akinyi2 | dept=Quality Assurance | role=STANDARD | action=UPDATE_PROFILE | src_ip=10.20.23.33 | result=SUCCESS
+2026-08-03 02:47:08 | user=e.kariuki | dept=HR | role=STANDARD | action=VIEW_INVENTORY | src_ip=10.20.21.151 | result=SUCCESS
+2026-08-03 02:49:06 | user=d.kiptoo2 | dept=Warehouse | role=STANDARD | action=LOGOUT | src_ip=10.20.2.190 | result=SUCCESS
+2026-08-03 02:50:27 | user=a.kemboi3 | dept=Procurement | role=STANDARD | action=CREATE_PURCHASE_ORDER | src_ip=10.20.9.29 | result=SUCCESS
+2026-08-03 02:56:03 | user=t.njoroge | dept=Quality Assurance | role=STANDARD | action=VIEW_PAYSLIP | src_ip=10.20.16.210 | result=SUCCESS
+2026-08-03 02:58:13 | user=b.ochieng | dept=Sales | role=STANDARD | action=VIEW_PURCHASE_ORDER | src_ip=10.20.22.98 | result=SUCCESS
+2026-08-03 03:03:32 | user=h.muthoni | dept=Finance | role=STANDARD | action=LOGOUT | src_ip=10.20.19.90 | result=SUCCESS
+2026-08-03 03:05:14 | user=j.abdullahi | dept=IT Support | role=STANDARD | action=APPROVE_LEAVE_REQUEST | src_ip=10.20.6.164 | result=SUCCESS
+2026-08-03 03:08:34 | user=r.otieno2 | dept=IT Support | role=STANDARD | action=VIEW_INVENTORY | src_ip=10.20.16.210 | result=SUCCESS
+2026-08-03 03:08:52 | user=a.barasa3 | dept=Procurement | role=STANDARD | action=VIEW_PURCHASE_ORDER | src_ip=10.20.14.149 | result=SUCCESS
+2026-08-03 03:10:15 | user=e.maina | dept=Logistics | role=STANDARD | action=VIEW_PAYSLIP | src_ip=10.20.24.222 | result=SUCCESS
+2026-08-03 03:12:47 | user=d.hassan | dept=Finance | role=STANDARD | action=VIEW_PAYSLIP | src_ip=10.20.25.161 | result=SUCCESS
+2026-08-03 03:17:04 | user=b.akinyi3 | dept=Sales | role=STANDARD | action=VIEW_PURCHASE_ORDER | src_ip=10.20.19.91 | result=SUCCESS
+2026-08-03 03:17:45 | user=e.abdullahi2 | dept=Sales | role=STANDARD | action=VIEW_TIMESHEET | src_ip=10.20.23.33 | result=SUCCESS
+2026-08-03 03:18:37 | user=c.mutua | dept=Quality Assurance | role=STANDARD | action=UPDATE_PROFILE | src_ip=10.20.8.55 | result=SUCCESS
+2026-08-03 03:19:07 | user=i.mohamed | dept=Logistics | role=STANDARD | action=VIEW_INVENTORY | src_ip=10.20.19.90 | result=SUCCESS
