@@ -13,19 +13,34 @@ import subprocess
 import sys
 
 
+def _pip_install(package):
+    """Tries a plain pip install first, then falls back to the flag
+    combinations needed on PEP 668 "externally managed" systems (Debian/
+    Kali/Ubuntu) and no-write-access user installs, in that order, so this
+    works unattended across venvs, system Python, and locked-down distros."""
+    attempts = [
+        [sys.executable, "-m", "pip", "install", "--quiet", package],
+        [sys.executable, "-m", "pip", "install", "--quiet", "--break-system-packages", package],
+        [sys.executable, "-m", "pip", "install", "--quiet", "--user", package],
+        [sys.executable, "-m", "pip", "install", "--quiet", "--user", "--break-system-packages", package],
+    ]
+    last_result = None
+    for cmd in attempts:
+        last_result = subprocess.run(cmd, capture_output=True, text=True)
+        if last_result.returncode == 0:
+            return True
+    print(last_result.stdout)
+    print(last_result.stderr)
+    return False
+
+
 def _ensure_fpdf():
     try:
         import fpdf  # noqa: F401
         return fpdf
     except ImportError:
         print("[pdf_report_lib] fpdf2 not found, installing it now (pip install fpdf2)...")
-        result = subprocess.run(
-            [sys.executable, "-m", "pip", "install", "--quiet", "fpdf2"],
-            capture_output=True, text=True,
-        )
-        if result.returncode != 0:
-            print(result.stdout)
-            print(result.stderr)
+        if not _pip_install("fpdf2"):
             raise RuntimeError(
                 "Could not automatically install fpdf2. Install it manually with: "
                 "python -m pip install fpdf2"

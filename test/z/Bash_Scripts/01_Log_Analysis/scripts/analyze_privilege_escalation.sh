@@ -21,12 +21,72 @@ set -uo pipefail
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 LOG_FILE="${1:-$SCRIPT_DIR/../logs/03_privilege_escalation_kestrel_manufacturing.log}"
 
+# Accept a bare filename regardless of the caller's cwd: if it doesn't
+# resolve as given (absolute or relative to the current directory), look
+# for it next to this script's own logs/ and log_samples/ folders.
+if [ ! -f "$LOG_FILE" ]; then
+    for _candidate in "$SCRIPT_DIR/../logs/$(basename "$LOG_FILE")" "$SCRIPT_DIR/../log_samples/$(basename "$LOG_FILE")"; do
+        if [ -f "$_candidate" ]; then
+            LOG_FILE="$_candidate"
+            break
+        fi
+    done
+fi
+
 if [ ! -f "$LOG_FILE" ]; then
     echo "Log file not found: $LOG_FILE"
     exit 1
 fi
 
-source "$SCRIPT_DIR/pdf_lib.sh"
+# Installs an apt package unattended if the tool isn't already on PATH,
+# trying root first, then passwordless sudo; falls back to a clear error
+# if neither is available (e.g. non-Debian, no privileges).
+_ensure_tool() {
+    local tool="$1" apt_pkg="$2"
+    command -v "$tool" >/dev/null 2>&1 && return 0
+    echo "$tool was not found on PATH. Attempting to install it now (apt install $apt_pkg)..."
+    if command -v apt-get >/dev/null 2>&1; then
+        if [ "$(id -u)" -eq 0 ]; then
+            DEBIAN_FRONTEND=noninteractive apt-get install -y "$apt_pkg" >/dev/null 2>&1
+        elif command -v sudo >/dev/null 2>&1; then
+            DEBIAN_FRONTEND=noninteractive sudo -n apt-get install -y "$apt_pkg" >/dev/null 2>&1
+        fi
+    fi
+    command -v "$tool" >/dev/null 2>&1
+}
+
+# Every external command this script (and pdf_lib.sh) actually shells out
+# to, mapped to the Debian/Kali/Ubuntu apt package that provides it.
+for _dep in "grep:grep" "sed:sed" "awk:gawk" "sort:coreutils" "uniq:coreutils" \
+            "cut:coreutils" "fold:coreutils" "mktemp:coreutils" "date:coreutils" \
+            "tr:coreutils" "wc:coreutils"; do
+    _tool="${_dep%%:*}"; _pkg="${_dep##*:}"
+    if ! _ensure_tool "$_tool" "$_pkg"; then
+        echo "Required tool '$_tool' is missing and could not be installed automatically (apt install $_pkg)."
+        exit 1
+    fi
+done
+
+# pdf_lib.sh is a required co-located file, not an installable package: if
+# this script was copied out of its scripts/ folder on its own (a common
+# mistake when grabbing just one file to test), look for pdf_lib.sh in the
+# other places it's plausible to have been copied to before giving up with
+# ONE clear, actionable message instead of a cascade of "command not
+# found" errors once every pdf_* call below starts failing.
+PDF_LIB=""
+for _candidate in "$SCRIPT_DIR/pdf_lib.sh" "$SCRIPT_DIR/../scripts/pdf_lib.sh" "$SCRIPT_DIR/scripts/pdf_lib.sh"; do
+    if [ -f "$_candidate" ]; then
+        PDF_LIB="$_candidate"
+        break
+    fi
+done
+if [ -z "$PDF_LIB" ]; then
+    echo "pdf_lib.sh not found (checked next to this script, ../scripts/, and ./scripts/)."
+    echo "This script was likely copied out of its scripts/ folder without its sibling pdf_lib.sh."
+    echo "Fix: run it from its original scripts/ directory, or copy pdf_lib.sh alongside it."
+    exit 1
+fi
+source "$PDF_LIB"
 
 echo "=================================================================="
 echo " VERTICAL PRIVILEGE ESCALATION INCIDENT REPORT"

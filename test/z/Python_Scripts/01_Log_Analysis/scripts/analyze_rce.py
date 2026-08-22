@@ -15,11 +15,24 @@ Missing packages (fpdf2) are installed automatically on first run.
 
 import argparse
 import os
+import sys
 import re
 from collections import Counter
 from urllib.parse import unquote_plus
 
-from pdf_report_lib import IncidentReport
+_SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+for _candidate_dir in (_SCRIPT_DIR, os.path.join(_SCRIPT_DIR, "..", "scripts"), os.path.join(_SCRIPT_DIR, "scripts")):
+    if os.path.isfile(os.path.join(_candidate_dir, "pdf_report_lib.py")) and _candidate_dir not in sys.path:
+        sys.path.insert(0, _candidate_dir)
+
+try:
+    from pdf_report_lib import IncidentReport
+except ModuleNotFoundError:
+    sys.exit(
+        "pdf_report_lib.py not found (checked next to this script, ../scripts/, and ./scripts/).\n"
+        "This script was likely copied out of its scripts/ folder without its sibling pdf_report_lib.py.\n"
+        "Fix: run it from its original scripts/ directory, or copy pdf_report_lib.py alongside it."
+    )
 
 RECON_PATTERN = re.compile(r"actuator|jndi:|manager/html|\.git/config|console/", re.IGNORECASE)
 LOG_LINE = re.compile(
@@ -32,6 +45,20 @@ LOG_LINE = re.compile(
 def load_lines(path):
     with open(path, encoding="utf-8", errors="replace") as f:
         return [line.rstrip("\n") for line in f]
+
+
+def _resolve_log_path(path):
+    """Accepts a bare filename regardless of the caller's cwd: if it doesn't
+    resolve as given (absolute or relative to the current directory), look
+    for it next to this script's own logs/ and log_samples/ folders."""
+    if os.path.isfile(path):
+        return path
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    for sub in ("logs", "log_samples"):
+        candidate = os.path.join(script_dir, "..", sub, os.path.basename(path))
+        if os.path.isfile(candidate):
+            return candidate
+    return path
 
 
 def extract_cmd(path):
@@ -49,6 +76,7 @@ def main():
     ap.add_argument("log_file", nargs="?", default="../logs/02_rce_vantage_cloud_systems.log")
     ap.add_argument("--pdf", default=None)
     args = ap.parse_args()
+    args.log_file = _resolve_log_path(args.log_file)
 
     lines = load_lines(args.log_file)
     total_lines = len(lines)

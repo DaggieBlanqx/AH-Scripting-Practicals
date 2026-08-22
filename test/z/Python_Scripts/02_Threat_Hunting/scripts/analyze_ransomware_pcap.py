@@ -25,17 +25,34 @@ from collections import Counter, defaultdict
 from datetime import datetime
 
 
+def _pip_install(package):
+    """Tries a plain pip install first, then falls back to the flag
+    combinations needed on PEP 668 "externally managed" systems (Debian/
+    Kali/Ubuntu) and no-write-access user installs, in that order, so this
+    works unattended across venvs, system Python, and locked-down distros."""
+    attempts = [
+        [sys.executable, "-m", "pip", "install", "--quiet", package],
+        [sys.executable, "-m", "pip", "install", "--quiet", "--break-system-packages", package],
+        [sys.executable, "-m", "pip", "install", "--quiet", "--user", package],
+        [sys.executable, "-m", "pip", "install", "--quiet", "--user", "--break-system-packages", package],
+    ]
+    last_result = None
+    for cmd in attempts:
+        last_result = subprocess.run(cmd, capture_output=True, text=True)
+        if last_result.returncode == 0:
+            return True
+    print(last_result.stdout)
+    print(last_result.stderr)
+    return False
+
+
 def _ensure_scapy():
     try:
         import scapy.all as scapy  # noqa: F401
         return scapy
     except ImportError:
         print("[analyze_ransomware_pcap] scapy not found, installing it now (pip install scapy)...")
-        result = subprocess.run([sys.executable, "-m", "pip", "install", "--quiet", "scapy"],
-                                 capture_output=True, text=True)
-        if result.returncode != 0:
-            print(result.stdout)
-            print(result.stderr)
+        if not _pip_install("scapy"):
             raise RuntimeError("Could not automatically install scapy. Install it manually with: python -m pip install scapy")
         import scapy.all as scapy  # noqa: F401
         return scapy
@@ -44,7 +61,19 @@ def _ensure_scapy():
 scapy = _ensure_scapy()
 from scapy.all import rdpcap, TCP, UDP, IP, Raw, DNS, DNSQR  # noqa: E402
 
-from pdf_report_lib import IncidentReport
+_SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+for _candidate_dir in (_SCRIPT_DIR, os.path.join(_SCRIPT_DIR, "..", "scripts"), os.path.join(_SCRIPT_DIR, "scripts")):
+    if os.path.isfile(os.path.join(_candidate_dir, "pdf_report_lib.py")) and _candidate_dir not in sys.path:
+        sys.path.insert(0, _candidate_dir)
+
+try:
+    from pdf_report_lib import IncidentReport
+except ModuleNotFoundError:
+    sys.exit(
+        "pdf_report_lib.py not found (checked next to this script, ../scripts/, and ./scripts/).\n"
+        "This script was likely copied out of its scripts/ folder without its sibling pdf_report_lib.py.\n"
+        "Fix: run it from its original scripts/ directory, or copy pdf_report_lib.py alongside it."
+    )
 
 # ---------------------------------------------------------------------------
 # Known incident facts, corroborated by the IR team's asset inventory and
@@ -67,6 +96,17 @@ def load_packets(path):
     return rdpcap(path)
 
 
+def _resolve_pcap_path(path):
+    """Accepts a bare filename regardless of the caller's cwd: if it doesn't
+    resolve as given (absolute or relative to the current directory), look
+    for it next to this script's own pcap/ folder."""
+    if os.path.isfile(path):
+        return path
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    candidate = os.path.join(script_dir, "..", "pcap", os.path.basename(path))
+    return candidate if os.path.isfile(candidate) else path
+
+
 def stream_text(pkts, ip_a, ip_b, port):
     """All Raw payloads between ip_a and ip_b on the given port, ordered by time."""
     items = []
@@ -86,6 +126,7 @@ def main():
     ap.add_argument("pcap_file", nargs="?", default="../pcap/atlas_continental_ransomware_incident.pcap")
     ap.add_argument("--pdf", default=None)
     args = ap.parse_args()
+    args.pcap_file = _resolve_pcap_path(args.pcap_file)
 
     pkts = load_packets(args.pcap_file)
     total_packets = len(pkts)
