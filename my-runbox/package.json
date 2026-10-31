@@ -1,0 +1,20 @@
+{
+  "name": "my-runbox",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Reusable Bash tooling for the scripting practicals: web access log analysis and Markdown to PDF.",
+  "license": "UNLICENSED",
+  "homepage": "https://github.com/",
+  "scripts": {
+    "analyse": "./utils/sqli_incident_analysis.sh",
+    "analyse:quiet": "./utils/sqli_incident_analysis.sh -q",
+    "report": "sh -c '\"./utils/sqli_incident_analysis.sh\" -q || [ $? -eq 2 ] || exit 1; latest=$(ls -t reports/*.md 2>/dev/null | head -n 1); [ -n \"$latest\" ] || { echo \"no report found in reports/\" >&2; exit 1; }; exec \"./utils/md2pdf.sh\" \"$latest\"'",
+    "pdf": "./utils/md2pdf.sh",
+    "pdf:latest": "sh -c 'latest=$(ls -t reports/*.md 2>/dev/null | head -n 1); [ -n \"$latest\" ] || { echo \"no markdown report in reports/\" >&2; exit 1; }; exec \"./utils/md2pdf.sh\" \"$latest\"'",
+    "pdf:all": "sh -c 'rc=0; for f in reports/*.md; do [ -e \"$f\" ] || continue; \"./utils/md2pdf.sh\" \"$f\" || rc=1; done; exit $rc'",
+    "help": "sh -c '\"./utils/sqli_incident_analysis.sh\" --help; printf \"\\n\"; \"./utils/md2pdf.sh\" --help'",
+    "docs": "sh -c 'cat README.md'",
+    "lint": "sh -c 'bash -n utils/sqli_incident_analysis.sh && bash -n utils/md2pdf.sh && echo \"syntax OK: both tools\"'",
+    "smoke": "sh -c 'set -u; d=$(mktemp -d) || exit 1; trap \"rm -rf \\\"$d\\\"\" EXIT; \"./utils/sqli_incident_analysis.sh\" -q -o \"$d\" || [ $? -eq 2 ] || exit 1; \"./utils/md2pdf.sh\" README.md -o \"$d/readme.pdf\" || exit 1; head -c 5 \"$d/readme.pdf\" | grep -q \"%PDF-\" || exit 1; echo \"smoke OK: analyser + converter\"'"
+  }
+}
