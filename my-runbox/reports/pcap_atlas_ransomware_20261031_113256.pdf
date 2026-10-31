@@ -1,0 +1,277 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [ 6 0 R 8 0 R 10 0 R ] /Count 3 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R >> >> /MediaBox [0 0 595 842] /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 13366 >>
+stream
+BT /F2 19.00 Tf 0.09 0.16 0.25 rg 1 0 0 1 54.00 751.00 Tm (Atlas Continental ransomware incident - PCAP) Tj ET
+BT /F2 19.00 Tf 0.09 0.16 0.25 rg 1 0 0 1 54.00 728.00 Tm (analysis) Tj ET
+0.09 0.16 0.25 RG 0.80 w 54.00 718.00 m 541.00 718.00 l S
+BT 0 0 0 rg 1 0 0 1 54.00 692.50 Tm /F2 10.50 Tf (Capture:) Tj /F2 10.50 Tf ( ) Tj /F3 10.50 Tf (atlas_continental_ransomware_incident.pcap) Tj /F3 10.50 Tf ( ) Tj /F1 10.50 Tf (-) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (863) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (packets) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (/) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (109) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (kB) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (-) Tj ET
+BT 0 0 0 rg 1 0 0 1 54.00 678.00 Tm /F1 10.50 Tf (2026-09-01) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (08:13) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (->) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (2026-09-08) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (16:14) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (\(times) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (as) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (displayed,) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (UTC+03:00\)) Tj /F1 10.50 Tf ( ) Tj /F2 10.50 Tf (Verdict:) Tj /F2 10.50 Tf ( ) Tj /F1 10.50 Tf (phishing) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (->) Tj ET
+BT 0 0 0 rg 1 0 0 1 54.00 663.50 Tm /F1 10.50 Tf (implant) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (->) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (C2) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (->) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (data) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (theft) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (->) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (encryption) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (->) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (paid) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (ransom) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (->) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (decryption.) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (The) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (whole) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (intrusion) Tj ET
+BT 0 0 0 rg 1 0 0 1 54.00 649.00 Tm /F1 10.50 Tf (is) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (visible) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (end) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (to) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (end) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (in) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (this) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (traffic.) Tj ET
+BT /F2 14.50 Tf 0.09 0.16 0.25 rg 1 0 0 1 54.00 613.00 Tm (What happened) Tj ET
+BT /F1 10.50 Tf 0.42 0.45 0.50 rg 1 0 0 1 54.00 592.50 Tm (1.) Tj ET
+BT 0 0 0 rg 1 0 0 1 79.50 592.50 Tm /F2 10.50 Tf (Phishing) Tj /F2 10.50 Tf ( ) Tj /F2 10.50 Tf (\(1) Tj /F2 10.50 Tf ( ) Tj /F2 10.50 Tf (Sep) Tj /F2 10.50 Tf ( ) Tj /F2 10.50 Tf (08:14\).) Tj /F2 10.50 Tf ( ) Tj /F1 10.50 Tf (An) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (external) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (relay) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (delivered) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf ("2026) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (Salary) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (Increase) Tj ET
+BT 0 0 0 rg 1 0 0 1 54.00 573.00 Tm /F1 10.50 Tf (Notification") Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (to) Tj /F1 10.50 Tf ( ) Tj /F3 10.50 Tf (d.kowalski@atlascontinental.com) Tj /F3 10.50 Tf ( ) Tj /F1 10.50 Tf (with) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (the) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (attachment) Tj ET
+BT 0 0 0 rg 1 0 0 1 54.00 558.50 Tm /F3 10.50 Tf (SalaryIncrease.pdf.exe) Tj /F1 10.50 Tf (.) Tj ET
+BT /F1 10.50 Tf 0.42 0.45 0.50 rg 1 0 0 1 54.00 539.00 Tm (2.) Tj ET
+BT 0 0 0 rg 1 0 0 1 79.50 539.00 Tm /F2 10.50 Tf (Implant) Tj /F2 10.50 Tf ( ) Tj /F2 10.50 Tf (\(1) Tj /F2 10.50 Tf ( ) Tj /F2 10.50 Tf (Sep) Tj /F2 10.50 Tf ( ) Tj /F2 10.50 Tf (09:03\).) Tj /F2 10.50 Tf ( ) Tj /F1 10.50 Tf (Host) Tj /F1 10.50 Tf ( ) Tj /F3 10.50 Tf (10.10.5.47) Tj /F3 10.50 Tf ( ) Tj /F1 10.50 Tf (downloaded) Tj ET
+BT 0 0 0 rg 1 0 0 1 54.00 519.50 Tm /F3 10.50 Tf (svchost_update.bin) Tj /F3 10.50 Tf ( ) Tj /F1 10.50 Tf (from) Tj /F1 10.50 Tf ( ) Tj /F3 10.50 Tf (cdn-updates-secure.xyz) Tj /F1 10.50 Tf (,) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (one) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (minute) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (before) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (its) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (first) Tj ET
+BT 0 0 0 rg 1 0 0 1 54.00 505.00 Tm /F1 10.50 Tf (check-in.) Tj ET
+BT /F1 10.50 Tf 0.42 0.45 0.50 rg 1 0 0 1 54.00 485.50 Tm (3.) Tj ET
+BT 0 0 0 rg 1 0 0 1 79.50 485.50 Tm /F2 10.50 Tf (Command) Tj /F2 10.50 Tf ( ) Tj /F2 10.50 Tf (and) Tj /F2 10.50 Tf ( ) Tj /F2 10.50 Tf (control) Tj /F2 10.50 Tf ( ) Tj /F2 10.50 Tf (\(1-2) Tj /F2 10.50 Tf ( ) Tj /F2 10.50 Tf (Sep\).) Tj /F2 10.50 Tf ( ) Tj /F1 10.50 Tf (50) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (HTTP) Tj /F1 10.50 Tf ( ) Tj /F3 10.50 Tf (POST) Tj /F3 10.50 Tf ( ) Tj /F3 10.50 Tf (/beacon) Tj /F3 10.50 Tf ( ) Tj /F1 10.50 Tf (calls) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (from) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (44) Tj ET
+BT 0 0 0 rg 1 0 0 1 54.00 466.00 Tm /F1 10.50 Tf (hosts) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (across) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (all) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (six) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (offices,) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (in) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (waves) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (roughly) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (every) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (three) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (hours.) Tj ET
+BT /F1 10.50 Tf 0.42 0.45 0.50 rg 1 0 0 1 54.00 446.50 Tm (4.) Tj ET
+BT 0 0 0 rg 1 0 0 1 79.50 446.50 Tm /F2 10.50 Tf (Data) Tj /F2 10.50 Tf ( ) Tj /F2 10.50 Tf (theft) Tj /F2 10.50 Tf ( ) Tj /F2 10.50 Tf (\(3) Tj /F2 10.50 Tf ( ) Tj /F2 10.50 Tf (Sep) Tj /F2 10.50 Tf ( ) Tj /F2 10.50 Tf (03:14-04:14\).) Tj /F2 10.50 Tf ( ) Tj /F1 10.50 Tf (Five) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (archive) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (transfers) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (to) Tj ET
+BT 0 0 0 rg 1 0 0 1 54.00 427.00 Tm /F3 10.50 Tf (45.147.230.55:443) Tj /F1 10.50 Tf (,) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (15) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (minutes) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (apart:) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (financial,) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (customer,) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (source) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (code,) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (employee) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (PII) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (and) Tj ET
+BT 0 0 0 rg 1 0 0 1 54.00 412.50 Tm /F1 10.50 Tf (engineering) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (data.) Tj ET
+BT /F1 10.50 Tf 0.42 0.45 0.50 rg 1 0 0 1 54.00 393.00 Tm (5.) Tj ET
+BT 0 0 0 rg 1 0 0 1 79.50 393.00 Tm /F2 10.50 Tf (Encryption) Tj /F2 10.50 Tf ( ) Tj /F2 10.50 Tf (\(3) Tj /F2 10.50 Tf ( ) Tj /F2 10.50 Tf (Sep) Tj /F2 10.50 Tf ( ) Tj /F2 10.50 Tf (10:08-10:18\).) Tj /F2 10.50 Tf ( ) Tj /F1 10.50 Tf (SMB) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (connections) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (to) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (the) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (file) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (server) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (in) Tj ET
+BT 0 0 0 rg 1 0 0 1 54.00 373.50 Tm /F1 10.50 Tf (each) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (office:) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (ransom) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (note) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (written,) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (then) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (every) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (share) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (renamed) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (to) Tj /F1 10.50 Tf ( ) Tj /F3 10.50 Tf (*.gentlemen_locked) Tj /F1 10.50 Tf (.) Tj ET
+BT /F1 10.50 Tf 0.42 0.45 0.50 rg 1 0 0 1 54.00 354.00 Tm (6.) Tj ET
+BT 0 0 0 rg 1 0 0 1 79.50 354.00 Tm /F2 10.50 Tf (Negotiation) Tj /F2 10.50 Tf ( ) Tj /F2 10.50 Tf (\(3-7) Tj /F2 10.50 Tf ( ) Tj /F2 10.50 Tf (Sep\).) Tj /F2 10.50 Tf ( ) Tj /F1 10.50 Tf (Tor) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (session) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (to) Tj /F1 10.50 Tf ( ) Tj /F3 10.50 Tf (91.219.237.44:9050) Tj /F1 10.50 Tf (:) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (demand) Tj ET
+BT 0 0 0 rg 1 0 0 1 54.00 334.50 Tm /F1 10.50 Tf (5,000,000) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (USD,) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (settled) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (at) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (1,250,000) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (USD.) Tj ET
+BT /F1 10.50 Tf 0.42 0.45 0.50 rg 1 0 0 1 54.00 315.00 Tm (7.) Tj ET
+BT 0 0 0 rg 1 0 0 1 79.50 315.00 Tm /F2 10.50 Tf (Payment) Tj /F2 10.50 Tf ( ) Tj /F2 10.50 Tf (\(6-7) Tj /F2 10.50 Tf ( ) Tj /F2 10.50 Tf (Sep\).) Tj /F2 10.50 Tf ( ) Tj /F1 10.50 Tf (Bitcoin) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (transaction) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (broadcast) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (6) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (Sep) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (22:09,) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (six) Tj ET
+BT 0 0 0 rg 1 0 0 1 54.00 295.50 Tm /F1 10.50 Tf (confirmations) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (by) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (7) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (Sep) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (00:19;) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (payment) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (verified) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (through) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (a) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (public) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (chain) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (API.) Tj ET
+BT /F1 10.50 Tf 0.42 0.45 0.50 rg 1 0 0 1 54.00 276.00 Tm (8.) Tj ET
+BT 0 0 0 rg 1 0 0 1 79.50 276.00 Tm /F2 10.50 Tf (Decryption) Tj /F2 10.50 Tf ( ) Tj /F2 10.50 Tf (\(7) Tj /F2 10.50 Tf ( ) Tj /F2 10.50 Tf (Sep) Tj /F2 10.50 Tf ( ) Tj /F2 10.50 Tf (01:13-01:38\).) Tj /F2 10.50 Tf ( ) Tj /F1 10.50 Tf (Decryptor) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (run) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (against) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (all) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (six) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (shares;) Tj ET
+BT 0 0 0 rg 1 0 0 1 54.00 256.50 Tm /F1 10.50 Tf (the) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (chat) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (hands) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (over) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (a) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (universal) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (key.) Tj ET
+BT /F1 10.50 Tf 0.42 0.45 0.50 rg 1 0 0 1 54.00 237.00 Tm (9.) Tj ET
+BT 0 0 0 rg 1 0 0 1 79.50 237.00 Tm /F2 10.50 Tf (Aftermath.) Tj /F2 10.50 Tf ( ) Tj /F1 10.50 Tf (Plain) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (HTTP) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (heartbeats) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (to) Tj /F1 10.50 Tf ( ) Tj /F3 10.50 Tf (95.216.201.77:443) Tj /F3 10.50 Tf ( ) Tj /F1 10.50 Tf (continue) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (every) Tj ET
+BT 0 0 0 rg 1 0 0 1 54.00 217.50 Tm /F1 10.50 Tf (six) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (hours) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (until) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (the) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (capture) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (ends) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (on) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (8) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (Sep) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (16:14) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (-) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (the) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (attacker) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (kept) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (a) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (foothold) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (after) Tj ET
+BT 0 0 0 rg 1 0 0 1 54.00 203.00 Tm /F1 10.50 Tf ("closing") Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (the) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (case.) Tj ET
+BT /F2 14.50 Tf 0.09 0.16 0.25 rg 1 0 0 1 54.00 167.00 Tm (Timeline) Tj ET
+0.09 0.16 0.25 rg 53.00 147.50 487.00 14.00 re f
+BT /F2 8.50 Tf 1 1 1 rg 1 0 0 1 58.00 152.00 Tm (Time \(UTC+03\)) Tj ET
+BT /F2 8.50 Tf 1 1 1 rg 1 0 0 1 159.05 152.00 Tm (Stage) Tj ET
+BT /F2 8.50 Tf 1 1 1 rg 1 0 0 1 256.06 152.00 Tm (Evidence) Tj ET
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 58.00 138.00 Tm (09-01 08:14) Tj ET
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 159.05 138.00 Tm (Phishing email d..) Tj ET
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 256.06 138.00 Tm (SMTP from 194.61.32.15 to 10.10.1.30:25, attachment ..) Tj ET
+0.78 0.80 0.84 RG 0.40 w 53.00 132.00 m 540.00 132.00 l S
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 58.00 124.00 Tm (09-01 09:03) Tj ET
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 159.05 124.00 Tm (Payload download) Tj ET
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 256.06 124.00 Tm (GET /update/svchost_update.bin from cdn-updates-secu..) Tj ET
+0.78 0.80 0.84 RG 0.40 w 53.00 118.00 m 540.00 118.00 l S
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 58.00 110.00 Tm (09-01 09:04) Tj ET
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 159.05 110.00 Tm (First check-in) Tj ET
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 256.06 110.00 Tm (POST /beacon from 10.10.5.47) Tj ET
+0.78 0.80 0.84 RG 0.40 w 53.00 104.00 m 540.00 104.00 l S
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 58.00 96.00 Tm (09-01 19:14 - 09-..) Tj ET
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 159.05 96.00 Tm (Beaconing spreads) Tj ET
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 256.06 96.00 Tm (50 beacons, 44 hosts, six offices, ~3 h apart) Tj ET
+0.78 0.80 0.84 RG 0.40 w 53.00 90.00 m 540.00 90.00 l S
+BT /F1 8 Tf 0.42 0.45 0.50 rg 1 0 0 1 285.50 66.00 Tm (Page 1) Tj ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R >> >> /MediaBox [0 0 595 842] /Contents 9 0 R >>
+endobj
+9 0 obj
+<< /Length 11871 >>
+stream
+BT /F1 8.00 Tf 0.42 0.45 0.50 rg 1 0 0 1 54.00 799.00 Tm (Atlas Continental ransomware incident - PCAP analysis) Tj ET
+0.78 0.80 0.84 RG 0.50 w 54.00 793.00 m 541.00 793.00 l S
+0.09 0.16 0.25 rg 53.00 767.50 487.00 14.00 re f
+BT /F2 8.50 Tf 1 1 1 rg 1 0 0 1 58.00 772.00 Tm (Time \(UTC+03\)) Tj ET
+BT /F2 8.50 Tf 1 1 1 rg 1 0 0 1 159.05 772.00 Tm (Stage) Tj ET
+BT /F2 8.50 Tf 1 1 1 rg 1 0 0 1 256.06 772.00 Tm (Evidence) Tj ET
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 58.00 758.00 Tm (09-03 03:14-04:14) Tj ET
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 159.05 758.00 Tm (Exfiltration) Tj ET
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 256.06 758.00 Tm (5 archives -> 45.147.230.55:443) Tj ET
+0.78 0.80 0.84 RG 0.40 w 53.00 752.00 m 540.00 752.00 l S
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 58.00 744.00 Tm (09-03 10:08-10:18) Tj ET
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 159.05 744.00 Tm (Ransom note + en..) Tj ET
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 256.06 744.00 Tm (SMB \\\\10.x.1.20\\Shared, rename to .gentlemen_locked) Tj ET
+0.78 0.80 0.84 RG 0.40 w 53.00 738.00 m 540.00 738.00 l S
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 58.00 730.00 Tm (09-03 18:13 - 09-..) Tj ET
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 159.05 730.00 Tm (Negotiation over..) Tj ET
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 256.06 730.00 Tm (10.10.1.30  91.219.237.44:9050) Tj ET
+0.78 0.80 0.84 RG 0.40 w 53.00 724.00 m 540.00 724.00 l S
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 58.00 716.00 Tm (09-06 22:09) Tj ET
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 159.05 716.00 Tm (Payment broadcast) Tj ET
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 256.06 716.00 Tm (TXID 3f9a7c2e...b5a2f) Tj ET
+0.78 0.80 0.84 RG 0.40 w 53.00 710.00 m 540.00 710.00 l S
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 58.00 702.00 Tm (09-07 00:19) Tj ET
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 159.05 702.00 Tm (6 confirmations) Tj ET
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 256.06 702.00 Tm (chain API 104.21.55.9, 19.84 BTC) Tj ET
+0.78 0.80 0.84 RG 0.40 w 53.00 696.00 m 540.00 696.00 l S
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 58.00 688.00 Tm (09-07 01:13-01:38) Tj ET
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 159.05 688.00 Tm (Decryption) Tj ET
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 256.06 688.00 Tm (DECRYPT_TOOL on all six shares) Tj ET
+0.78 0.80 0.84 RG 0.40 w 53.00 682.00 m 540.00 682.00 l S
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 58.00 674.00 Tm (09-07 04:14 - 09-..) Tj ET
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 159.05 674.00 Tm (Heartbeats conti..) Tj ET
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 256.06 674.00 Tm (POST /hb to 95.216.201.77:443) Tj ET
+0.78 0.80 0.84 RG 0.40 w 53.00 668.00 m 540.00 668.00 l S
+BT /F2 14.50 Tf 0.09 0.16 0.25 rg 1 0 0 1 54.00 628.00 Tm (Infrastructure) Tj ET
+0.09 0.16 0.25 rg 53.00 608.50 487.00 14.00 re f
+BT /F2 8.50 Tf 1 1 1 rg 1 0 0 1 58.00 613.00 Tm (Role) Tj ET
+BT /F2 8.50 Tf 1 1 1 rg 1 0 0 1 212.17 613.00 Tm (Address / domain) Tj ET
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 58.00 599.00 Tm (Phishing relay) Tj ET
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 212.17 599.00 Tm (194.61.32.15 \(mail-relay.atlas-hr-payroll-secure.net\)) Tj ET
+0.78 0.80 0.84 RG 0.40 w 53.00 593.00 m 540.00 593.00 l S
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 58.00 585.00 Tm (Payload host + beacon C2) Tj ET
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 212.17 585.00 Tm (cdn-updates-secure.xyz -> 45.147.230.12 \(TCP 80\)) Tj ET
+0.78 0.80 0.84 RG 0.40 w 53.00 579.00 m 540.00 579.00 l S
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 58.00 571.00 Tm (Exfiltration) Tj ET
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 212.17 571.00 Tm (45.147.230.55:443) Tj ET
+0.78 0.80 0.84 RG 0.40 w 53.00 565.00 m 540.00 565.00 l S
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 58.00 557.00 Tm (Negotiation portal \(Tor\)) Tj ET
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 212.17 557.00 Tm (91.219.237.44:9050) Tj ET
+0.78 0.80 0.84 RG 0.40 w 53.00 551.00 m 540.00 551.00 l S
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 58.00 543.00 Tm (Payment verification) Tj ET
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 212.17 543.00 Tm (104.21.55.9 \(chain-explorer-btc.example, Cloudflare\)) Tj ET
+0.78 0.80 0.84 RG 0.40 w 53.00 537.00 m 540.00 537.00 l S
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 58.00 529.00 Tm (Post-incident C2) Tj ET
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 212.17 529.00 Tm (95.216.201.77:443 \(POST /hb\)) Tj ET
+0.78 0.80 0.84 RG 0.40 w 53.00 523.00 m 540.00 523.00 l S
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 58.00 515.00 Tm (Attacker mailbox) Tj ET
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 212.17 515.00 Tm (hr.payroll@atlas-hr-payroll-secure.net) Tj ET
+0.78 0.80 0.84 RG 0.40 w 53.00 509.00 m 540.00 509.00 l S
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 58.00 501.00 Tm (Wallet) Tj ET
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 212.17 501.00 Tm (bc1qthegentlemen7x9k2m4n8p1q5r3s6t8u9v0w2x4y6z) Tj ET
+0.78 0.80 0.84 RG 0.40 w 53.00 495.00 m 540.00 495.00 l S
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 58.00 487.00 Tm (Onion portal) Tj ET
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 212.17 487.00 Tm (thegentlemenxyz7q9k2m4n8p1q5r3s6t.onion) Tj ET
+0.78 0.80 0.84 RG 0.40 w 53.00 481.00 m 540.00 481.00 l S
+BT 0 0 0 rg 1 0 0 1 54.00 455.50 Tm /F2 10.50 Tf (Compromised) Tj /F2 10.50 Tf ( ) Tj /F2 10.50 Tf (hosts:) Tj /F2 10.50 Tf ( ) Tj /F1 10.50 Tf (patient) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (zero) Tj /F1 10.50 Tf ( ) Tj /F3 10.50 Tf (10.10.5.47) Tj /F1 10.50 Tf (,) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (plus) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (43) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (other) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (workstations) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (across) Tj /F1 10.50 Tf ( ) Tj /F3 10.50 Tf (10.10) Tj /F1 10.50 Tf (,) Tj ET
+BT 0 0 0 rg 1 0 0 1 54.00 441.00 Tm /F3 10.50 Tf (10.20) Tj /F1 10.50 Tf (,) Tj /F1 10.50 Tf ( ) Tj /F3 10.50 Tf (10.30) Tj /F1 10.50 Tf (,) Tj /F1 10.50 Tf ( ) Tj /F3 10.50 Tf (10.40) Tj /F1 10.50 Tf (,) Tj /F1 10.50 Tf ( ) Tj /F3 10.50 Tf (10.50) Tj /F3 10.50 Tf ( ) Tj /F1 10.50 Tf (and) Tj /F1 10.50 Tf ( ) Tj /F3 10.50 Tf (10.60) Tj /F1 10.50 Tf (;) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (file) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (servers) Tj /F1 10.50 Tf ( ) Tj /F3 10.50 Tf (10.x.1.20) Tj /F1 10.50 Tf (;) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (mail) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (gateway) Tj ET
+BT 0 0 0 rg 1 0 0 1 54.00 426.50 Tm /F3 10.50 Tf (10.10.1.30) Tj /F1 10.50 Tf (.) Tj ET
+BT /F2 14.50 Tf 0.09 0.16 0.25 rg 1 0 0 1 54.00 390.50 Tm (Stolen data \(as declared in the exfiltration manifests\)) Tj ET
+0.09 0.16 0.25 rg 53.00 371.00 487.00 14.00 re f
+BT /F2 8.50 Tf 1 1 1 rg 1 0 0 1 58.00 375.50 Tm (Archive) Tj ET
+BT /F2 8.50 Tf 1 1 1 rg 1 0 0 1 139.25 375.50 Tm (Category) Tj ET
+BT /F2 8.50 Tf 1 1 1 rg 1 0 0 1 311.50 375.50 Tm (File) Tj ET
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 58.00 361.50 Tm (1000) Tj ET
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 139.25 361.50 Tm (Financial records) Tj ET
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 311.50 361.50 Tm (Q1-Q4_2026_Consolidated_Financials.xlsx.t..) Tj ET
+0.78 0.80 0.84 RG 0.40 w 53.00 355.50 m 540.00 355.50 l S
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 58.00 347.50 Tm (1001) Tj ET
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 139.25 347.50 Tm (Customer data) Tj ET
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 311.50 347.50 Tm (Global_Customer_Database_Export.sql.tar.g..) Tj ET
+0.78 0.80 0.84 RG 0.40 w 53.00 341.50 m 540.00 341.50 l S
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 58.00 333.50 Tm (1002) Tj ET
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 139.25 333.50 Tm (Source code) Tj ET
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 311.50 333.50 Tm (Atlas_Core_Platform_Source_Repositories.t..) Tj ET
+0.78 0.80 0.84 RG 0.40 w 53.00 327.50 m 540.00 327.50 l S
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 58.00 319.50 Tm (1003) Tj ET
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 139.25 319.50 Tm (Employee PII) Tj ET
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 311.50 319.50 Tm (Global_HR_Employee_Records_AllOffices.csv..) Tj ET
+0.78 0.80 0.84 RG 0.40 w 53.00 313.50 m 540.00 313.50 l S
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 58.00 305.50 Tm (1004) Tj ET
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 139.25 305.50 Tm (Engineering archives) Tj ET
+BT /F3 8.50 Tf 0 0 0 rg 1 0 0 1 311.50 305.50 Tm (Product_Design_And_Engineering_Archives.t..) Tj ET
+0.78 0.80 0.84 RG 0.40 w 53.00 299.50 m 540.00 299.50 l S
+BT 0 0 0 rg 1 0 0 1 54.00 274.00 Tm /F1 10.50 Tf (Roughly) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (600) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (TB) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (claimed.) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (The) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (pcap) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (carries) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (manifest) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (headers) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (and) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (placeholder) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (chunks,) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (so) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (the) Tj ET
+BT 0 0 0 rg 1 0 0 1 54.00 259.50 Tm /F1 10.50 Tf (transfer) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (sizes) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (above) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (are) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (the) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (attacker's) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (claims,) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (not) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (bytes) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (on) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (the) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (wire) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (\(each) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (transfer) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (is) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (~6) Tj ET
+BT 0 0 0 rg 1 0 0 1 54.00 245.00 Tm /F1 10.50 Tf (kB) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (in) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (this) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (capture\).) Tj ET
+BT /F2 14.50 Tf 0.09 0.16 0.25 rg 1 0 0 1 54.00 209.00 Tm (Extortion sequence) Tj ET
+0.09 0.16 0.25 rg 55.50 191.70 2.60 2.60 re f
+BT 0 0 0 rg 1 0 0 1 66.00 188.50 Tm /F1 10.50 Tf (Demand) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (5,000,000) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (USD;) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (victim) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (offers) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (750,000;) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (attacker) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (counters) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (4,500,000,) Tj ET
+BT 0 0 0 rg 1 0 0 1 54.00 169.00 Tm /F1 10.50 Tf (victim) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (1,000,000,) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (final) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (agreement) Tj /F1 10.50 Tf ( ) Tj /F2 10.50 Tf (1,250,000) Tj /F2 10.50 Tf ( ) Tj /F2 10.50 Tf (USD) Tj /F1 10.50 Tf (.) Tj ET
+0.09 0.16 0.25 rg 55.50 152.70 2.60 2.60 re f
+BT 0 0 0 rg 1 0 0 1 66.00 149.50 Tm /F1 10.50 Tf (Attacker) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (supplied) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (a) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (free) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (decryption) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (of) Tj /F1 10.50 Tf ( ) Tj /F3 10.50 Tf (HR_template_locked.gentlemen_locked) Tj ET
+BT 0 0 0 rg 1 0 0 1 54.00 130.00 Tm /F1 10.50 Tf (as) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (proof) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (of) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (capability) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (before) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (payment.) Tj ET
+0.09 0.16 0.25 rg 55.50 113.70 2.60 2.60 re f
+BT 0 0 0 rg 1 0 0 1 66.00 110.50 Tm /F1 10.50 Tf (Payment) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (verified) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (on-chain) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (\(6) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (confirmations\)) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (before) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (the) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (key) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (was) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (released:) Tj ET
+BT 0 0 0 rg 1 0 0 1 54.00 91.00 Tm /F3 10.50 Tf (8F3D1A9C7E2B5D6F0A4C8E1B3D7F9A2C5E8B1D4F7A0C3E6B9D2F5A8C1E4B7D0F) Tj /F1 10.50 Tf (,) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (valid) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (for) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (all) Tj ET
+BT /F1 8 Tf 0.42 0.45 0.50 rg 1 0 0 1 285.50 66.00 Tm (Page 2) Tj ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R >> >> /MediaBox [0 0 595 842] /Contents 11 0 R >>
+endobj
+11 0 obj
+<< /Length 14405 >>
+stream
+BT /F1 8.00 Tf 0.42 0.45 0.50 rg 1 0 0 1 54.00 799.00 Tm (Atlas Continental ransomware incident - PCAP analysis) Tj ET
+0.78 0.80 0.84 RG 0.50 w 54.00 793.00 m 541.00 793.00 l S
+BT 0 0 0 rg 1 0 0 1 54.00 763.50 Tm /F1 10.50 Tf (six) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (offices.) Tj ET
+0.09 0.16 0.25 rg 55.50 747.20 2.60 2.60 re f
+BT 0 0 0 rg 1 0 0 1 66.00 744.00 Tm /F1 10.50 Tf (Attacker) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (instructed) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (the) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (victim) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (not) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (to) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (involve) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (law) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (enforcement.) Tj ET
+BT /F2 14.50 Tf 0.09 0.16 0.25 rg 1 0 0 1 54.00 710.00 Tm (Defensive observations) Tj ET
+0.09 0.16 0.25 rg 55.50 692.70 2.60 2.60 re f
+BT 0 0 0 rg 1 0 0 1 66.00 689.50 Tm /F2 10.50 Tf (Email:) Tj /F2 10.50 Tf ( ) Tj /F1 10.50 Tf (the) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (lure) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (used) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (a) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (lookalike) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (payroll) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (domain) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (and) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (a) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (double) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (extension) Tj ET
+BT 0 0 0 rg 1 0 0 1 54.00 670.00 Tm /F1 10.50 Tf (\() Tj /F3 10.50 Tf (SalaryIncrease.pdf.exe) Tj /F1 10.50 Tf (\).) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (SPF/DKIM/DMARC) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (and) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (attachment) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (filtering) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (would) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (have) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (stopped) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (it) Tj ET
+BT 0 0 0 rg 1 0 0 1 54.00 655.50 Tm /F1 10.50 Tf (at) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (the) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (gateway.) Tj ET
+0.09 0.16 0.25 rg 55.50 639.20 2.60 2.60 re f
+BT 0 0 0 rg 1 0 0 1 66.00 636.00 Tm /F2 10.50 Tf (C2:) Tj /F2 10.50 Tf ( ) Tj /F1 10.50 Tf (beaconing) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (is) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (regular) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (\(~3) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (h\),) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (to) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (a) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (single) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (IP) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (over) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (plain) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (HTTP,) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (from) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (44) Tj ET
+BT 0 0 0 rg 1 0 0 1 54.00 616.50 Tm /F1 10.50 Tf (hosts) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (across) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (every) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (site.) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (Beacon) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (traffic) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (to) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (one) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (destination) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (from) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (many) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (internal) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (hosts) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (is) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (the) Tj ET
+BT 0 0 0 rg 1 0 0 1 54.00 602.00 Tm /F1 10.50 Tf (easiest) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (signal) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (to) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (alert) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (on) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (here.) Tj ET
+0.09 0.16 0.25 rg 55.50 585.70 2.60 2.60 re f
+BT 0 0 0 rg 1 0 0 1 66.00 582.50 Tm /F2 10.50 Tf (Lateral) Tj /F2 10.50 Tf ( ) Tj /F2 10.50 Tf (/) Tj /F2 10.50 Tf ( ) Tj /F2 10.50 Tf (encryption:) Tj /F2 10.50 Tf ( ) Tj /F1 10.50 Tf (SMB) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (ran) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (on) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (a) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (non-standard) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (port) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (\() Tj /F3 10.50 Tf (4455) Tj /F1 10.50 Tf (\),) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (and) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (the) Tj ET
+BT 0 0 0 rg 1 0 0 1 54.00 563.00 Tm /F1 10.50 Tf (mass) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (rename) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (to) Tj /F1 10.50 Tf ( ) Tj /F3 10.50 Tf (*.gentlemen_locked) Tj /F3 10.50 Tf ( ) Tj /F1 10.50 Tf (across) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (six) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (shares) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (happened) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (in) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (ten) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (minutes.) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (Share-level) Tj ET
+BT 0 0 0 rg 1 0 0 1 54.00 548.50 Tm /F1 10.50 Tf (write) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (protection) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (and) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (an) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (alert) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (on) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (bulk) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (renames) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (would) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (have) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (cost) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (the) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (attacker) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (time.) Tj ET
+0.09 0.16 0.25 rg 55.50 532.20 2.60 2.60 re f
+BT 0 0 0 rg 1 0 0 1 66.00 529.00 Tm /F2 10.50 Tf (Exfiltration:) Tj /F2 10.50 Tf ( ) Tj /F1 10.50 Tf (five) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (large) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (outbound) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (transfers) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (on) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (port) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (443) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (over) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (one) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (hour) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (-) Tj ET
+BT 0 0 0 rg 1 0 0 1 54.00 509.50 Tm /F1 10.50 Tf (egress) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (filtering) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (and) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (volume) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (thresholds) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (would) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (have) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (caught) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (it.) Tj ET
+0.09 0.16 0.25 rg 55.50 493.20 2.60 2.60 re f
+BT 0 0 0 rg 1 0 0 1 66.00 490.00 Tm /F2 10.50 Tf (Tor:) Tj /F2 10.50 Tf ( ) Tj /F3 10.50 Tf (10.10.1.30) Tj /F3 10.50 Tf ( ) Tj /F1 10.50 Tf (opened) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (a) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (SOCKS) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (session) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (to) Tj /F1 10.50 Tf ( ) Tj /F3 10.50 Tf (91.219.237.44:9050) Tj /F3 10.50 Tf ( ) Tj /F1 10.50 Tf (and) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (held) Tj ET
+BT 0 0 0 rg 1 0 0 1 54.00 470.50 Tm /F1 10.50 Tf (it) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (for) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (days;) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (blocking) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (9050) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (egress) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (and) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (alerting) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (on) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (Tor) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (use) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (is) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (low-effort.) Tj ET
+0.09 0.16 0.25 rg 55.50 454.20 2.60 2.60 re f
+BT 0 0 0 rg 1 0 0 1 66.00 451.00 Tm /F2 10.50 Tf (Persistence:) Tj /F2 10.50 Tf ( ) Tj /F1 10.50 Tf (heartbeats) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (to) Tj /F1 10.50 Tf ( ) Tj /F3 10.50 Tf (95.216.201.77) Tj /F3 10.50 Tf ( ) Tj /F1 10.50 Tf (continued) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (for) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (two) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (days) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (after) Tj ET
+BT 0 0 0 rg 1 0 0 1 54.00 431.50 Tm /F1 10.50 Tf (the) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf ("resolved") Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (chat) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (-) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (the) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (case) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (was) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (closed) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (while) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (the) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (intruder) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (was) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (still) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (talking.) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (Isolation) Tj ET
+BT 0 0 0 rg 1 0 0 1 54.00 417.00 Tm /F1 10.50 Tf (should) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (follow) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (containment,) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (not) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (negotiation.) Tj ET
+BT /F2 14.50 Tf 0.09 0.16 0.25 rg 1 0 0 1 54.00 381.00 Tm (Immediate actions) Tj ET
+BT /F1 10.50 Tf 0.42 0.45 0.50 rg 1 0 0 1 54.00 360.50 Tm (1.) Tj ET
+BT 0 0 0 rg 1 0 0 1 79.50 360.50 Tm /F1 10.50 Tf (Block) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (the) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (six) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (external) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (addresses,) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (the) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (domains,) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (the) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (wallet) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (and) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (the) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (onion) Tj ET
+BT 0 0 0 rg 1 0 0 1 54.00 341.00 Tm /F1 10.50 Tf (portal) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (at) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (the) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (perimeter,) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (DNS) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (and) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (mail) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (gateway.) Tj ET
+BT /F1 10.50 Tf 0.42 0.45 0.50 rg 1 0 0 1 54.00 321.50 Tm (2.) Tj ET
+BT 0 0 0 rg 1 0 0 1 79.50 321.50 Tm /F1 10.50 Tf (Treat) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (44) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (workstations,) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (six) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (file) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (servers) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (and) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (the) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (mail) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (gateway) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (as) Tj ET
+BT 0 0 0 rg 1 0 0 1 54.00 302.00 Tm /F1 10.50 Tf (compromised:) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (rebuild) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (rather) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (than) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (clean.) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (Reset) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (credentials,) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (rotate) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (service) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (accounts) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (and) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (keys.) Tj ET
+BT /F1 10.50 Tf 0.42 0.45 0.50 rg 1 0 0 1 54.00 282.50 Tm (3.) Tj ET
+BT 0 0 0 rg 1 0 0 1 79.50 282.50 Tm /F1 10.50 Tf (Disable) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (SMB) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (on) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (non-standard) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (ports) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (between) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (segments;) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (audit) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (share) Tj ET
+BT 0 0 0 rg 1 0 0 1 54.00 263.00 Tm /F1 10.50 Tf (permissions) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (for) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (mass-write) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (paths.) Tj ET
+BT /F1 10.50 Tf 0.42 0.45 0.50 rg 1 0 0 1 54.00 243.50 Tm (4.) Tj ET
+BT 0 0 0 rg 1 0 0 1 79.50 243.50 Tm /F1 10.50 Tf (Hunt) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (for) Tj /F1 10.50 Tf ( ) Tj /F3 10.50 Tf (svchost_update.bin) Tj /F1 10.50 Tf (,) Tj /F1 10.50 Tf ( ) Tj /F3 10.50 Tf (SalaryIncrease.pdf.exe) Tj /F1 10.50 Tf (,) Tj ET
+BT 0 0 0 rg 1 0 0 1 54.00 224.00 Tm /F3 10.50 Tf (README_DECRYPT_THE_GENTLEMEN.txt) Tj /F1 10.50 Tf (,) Tj /F1 10.50 Tf ( ) Tj /F3 10.50 Tf (*.gentlemen_locked) Tj /F3 10.50 Tf ( ) Tj /F1 10.50 Tf (and) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (the) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (decryptor) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (tool) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (on) Tj ET
+BT 0 0 0 rg 1 0 0 1 54.00 209.50 Tm /F1 10.50 Tf (disk,) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (and) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (for) Tj /F1 10.50 Tf ( ) Tj /F3 10.50 Tf (/beacon) Tj /F3 10.50 Tf ( ) Tj /F1 10.50 Tf (and) Tj /F1 10.50 Tf ( ) Tj /F3 10.50 Tf (/hb) Tj /F3 10.50 Tf ( ) Tj /F1 10.50 Tf (in) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (proxy) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (logs.) Tj ET
+BT /F1 10.50 Tf 0.42 0.45 0.50 rg 1 0 0 1 54.00 190.00 Tm (5.) Tj ET
+BT 0 0 0 rg 1 0 0 1 79.50 190.00 Tm /F1 10.50 Tf (Preserve) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (the) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (pcap,) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (chat) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (transcript) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (and) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (transaction) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (hashes) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (for) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (law) Tj ET
+BT 0 0 0 rg 1 0 0 1 54.00 170.50 Tm /F1 10.50 Tf (enforcement) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (and) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (the) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (insurer;) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (assume) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (the) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (data) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (remains) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (public) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (if) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (the) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (actor) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (changes) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (its) Tj /F1 10.50 Tf ( ) Tj /F1 10.50 Tf (mind.) Tj ET
+BT /F1 8 Tf 0.42 0.45 0.50 rg 1 0 0 1 285.50 66.00 Tm (Page 3) Tj ET
+endstream
+endobj
+xref
+0 13
+0000000000 65535 f 
+0000000010 00000 n 
+0000000059 00000 n 
+0000000131 00000 n 
+0000000228 00000 n 
+0000000330 00000 n 
+0000000530 00000 n 
+0000000686 00000 n 
+0000014104 00000 n 
+0000014260 00000 n 
+0000026183 00000 n 
+0000026341 00000 n 
+0000000000 00000 n 
+trailer
+<< /Size 13 /Root 1 0 R >>
+startxref
+40798
+%%EOF
